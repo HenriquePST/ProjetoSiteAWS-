@@ -1,0 +1,25 @@
+body {
+    background-color: #121212;
+    color: rgb(119, 36, 36);
+}
+.sidebar {
+    background-color: #181818;
+    height: 100vh;
+    padding: 20px;
+}
+.main-content {
+    padding: 20px;
+}
+.card-header {
+    background-color: #d9534f;
+    color: rgb(129, 16, 16);
+}
+.btn-custom {
+    background-color: #d9534f;
+    border: none;
+}
+
+.list-group-item-action:hover {
+    background-color: #dc3545; /* Vermelho Bootstrap */
+    color: rgb(183, 61, 61);
+}
