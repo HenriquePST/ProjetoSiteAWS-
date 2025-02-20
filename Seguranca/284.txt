@@ -1,0 +1,57 @@
+### **Reforço da rede**
+
+#### 1. Que tipo de vulnerabilidade de segurança expõe protocolos e serviços em uma rede?
+
+- [ ] Falsificação de protocolo de Internet (IP)  
+- [x] Verificação de porta  
+- [ ] Detecção de tráfego  
+- [ ] Mapeamento de rede  
+
+**Explicação**: A **verificação de porta** é um processo utilizado para identificar portas abertas em uma rede, o que pode expor vulnerabilidades de segurança. Portas abertas podem permitir o acesso não autorizado a serviços e protocolos, tornando a rede vulnerável a ataques, como o acesso não autorizado a um servidor ou serviço. A verificação de portas ajuda a mapear essas vulnerabilidades.
+
+---
+
+#### 2. Que protocolo um administrador de rede deve desativar ou proteger para evitar ataques por descoberta de rede?
+
+- [ ] Protocolo de Transferência de Hipertexto (HTTP)  
+- [ ] Simple Mail Transfer Protocol (SMTP)  
+- [ ] Protocolo de Transferência de Arquivos (FTP)  
+- [x] Internet Control Message Protocol (ICMP – Protocolo de mensagem de controle da Internet)  
+
+**Explicação**: O **ICMP** (Protocolo de Mensagem de Controle da Internet) é usado para enviar mensagens de erro e outros relatórios entre dispositivos na rede. Ele pode ser explorado para **ataques de descoberta de rede**, como o **ping sweep** ou ataques **DDoS** (negação de serviço distribuída). Administradores de rede devem desativar ou proteger o ICMP para evitar que ele seja utilizado indevidamente para mapear redes e identificar dispositivos.
+
+---
+
+#### 3. Qual declaração descreve totalmente a finalidade de um firewall?
+
+- [x] Ele filtra pacotes que entram e saem de uma rede.  
+- [ ] Ele filtra pacotes que entram em uma rede.  
+- [ ] Ele filtra pacotes que saem de uma rede.  
+- [ ] Ele filtra pacotes de Protocolo de Transferência de Hipertexto em uma rede.  
+
+**Explicação**: O **firewall** é uma ferramenta de segurança que **filtra pacotes de dados**, monitorando e controlando o tráfego de rede com base em regras de segurança predefinidas. Ele pode filtrar pacotes que entram ou saem da rede, ou ambos. A sua função é bloquear acessos não autorizados, enquanto permite tráfego legítimo, ajudando a proteger a rede contra ataques.
+
+---
+
+#### 4. Qual dos seguintes é um benefício da segmentação de rede? (Selecione DUAS respostas.)
+
+- [x] Ela melhora o desempenho do tráfego de rede.  
+- [ ] Permite a detecção de ameaças com base em assinatura.  
+- [x] Permite que os administradores apliquem controles de segurança diferentes a diferentes partes de uma rede.  
+- [ ] Ela expande a faixa de endereço do Protocolo de Internet (IP) de uma rede.  
+- [ ] Protege uma rede contra ataques de mapeamento de rede.  
+
+**Explicação**: A **segmentação de rede** oferece vários benefícios, incluindo:
+1. **Melhoria do desempenho do tráfego de rede**: ao dividir a rede em sub-redes menores, o tráfego é mais gerenciável e o desempenho pode ser melhorado.
+2. **Aplicação de controles de segurança diferentes**: os administradores podem aplicar regras de segurança específicas para diferentes partes da rede, garantindo maior controle e proteção em áreas críticas, como servidores e sistemas financeiros.
+
+---
+
+#### 5. O que é um grupo de segurança da Amazon Web Services (AWS)?
+
+- [ ] Um grupo de usuários com permissão para acessar recursos  
+- [x] Um firewall que protege instâncias do Amazon Elastic Compute Cloud (Amazon EC2)  
+- [ ] Um aplicativo que é instalado nas instâncias do Amazon Elastic Compute Cloud (Amazon EC2) para protegê-las.  
+- [ ] Um grupo de servidores configurados para proteger recursos  
+
+**Explicação**: O **grupo de segurança** da AWS é um **firewall virtual** que controla o tráfego de entrada e saída das **instâncias EC2** (Elastic Compute Cloud). Ele é usado para definir **regras de segurança** que determinam quais tráfegos são permitidos ou bloqueados com base em endereços IP, protocolos e portas. Grupos de segurança são fundamentais para proteger instâncias EC2, garantindo que apenas tráfegos autorizados possam acessar as instâncias.

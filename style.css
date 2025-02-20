@@ -53,3 +53,6 @@ h4,h2 {
     flex: 1; /* Faz o conteúdo ocupar o máximo possível do espaço */
 }
 
+#titulo-exercicios {
+    display: none;
+}

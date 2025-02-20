@@ -4,57 +4,55 @@ const textoContainer = document.getElementById("texto-container");
 
 const exercicios = {
   "Introdução ao Cloud Foundation": {
-    "1 - Fundamentos da AWS":
-      "📌 Fundamentos da AWS\n\nAqui você aprenderá sobre os conceitos básicos da AWS, seus serviços e como utilizá-los.",
-    "2 - Regiões e Zonas de Disponibilidade":
-      "📌 Regiões e Zonas de Disponibilidade\n\nEntenda como a AWS organiza sua infraestrutura globalmente.",
-    "3 - Introdução à computação em nuvem": "Carregando conteúdo...", // Colocamos uma mensagem de carregamento
+    "1 - Introdução ao Amazon S3": "Cloud/010.txt",
+    "2 - Introdução à computação em nuvem": "Cloud/02.txt",
+    "3 - O que é computação em nuvem?": "Cloud/005.txt",
+
+  },
+  "Introdução à segurança": {
+    "1 - Introdução à segurança": "Seguranca/282.txt",
+    "2 - Ciclo de vida da segurança: Prevenção": "Seguranca/283.txt",
+    "3 - Reforço da rede": "Seguranca/284.txt"
   }
 };
 
-async function carregarConteudoExterno(topico, nomeArquivo) {
-  try {
-    // Usando fetch para carregar o arquivo de conteúdo externo
-    const resposta = await fetch(nomeArquivo);
-    if (!resposta.ok) {
-      throw new Error("Falha ao carregar o conteúdo.");
-    }
-    const conteudo = await resposta.text();
-    
-    // Atualiza o conteúdo do tópico com o conteúdo do arquivo
-    exercicios[topico]["3 - Introdução à computação em nuvem"] = conteudo;
-
-    // Agora, chamamos a função para carregar o conteúdo na página
-    carregarConteudo(topico);
-  } catch (erro) {
-    console.error("Erro ao carregar o conteúdo: ", erro);
-  }
-}
-
+// Função para carregar a lista de exercícios
 function carregarConteudo(topico) {
-  listaExercicios.innerHTML = ""; // Limpar os exercícios anteriores
-  tituloExercicios.textContent = "";
+  listaExercicios.innerHTML = ""; // Limpar a lista anterior
+  tituloExercicios.textContent = topico; // Atualizar o título
 
   const listaTopico = exercicios[topico];
 
   if (listaTopico) {
-    let primeiroExercicio = Object.keys(listaTopico)[0]; // Pegamos o primeiro exercício da lista
-    textoContainer.innerHTML = listaTopico[primeiroExercicio]; // Exibe o primeiro exercício no início
-
     Object.keys(listaTopico).forEach((item) => {
       let button = document.createElement("button");
       button.className = "list-group-item list-group-item-action";
       button.textContent = item;
-      button.onclick = () => (textoContainer.innerHTML = listaTopico[item]);
+      button.onclick = () => carregarConteudoExterno(listaTopico[item]);
       listaExercicios.appendChild(button);
     });
   }
 }
 
-// ⬇️ Chamamos essa função automaticamente ao carregar a página
-window.onload = () => {
-  carregarConteudo("Introdução ao Cloud Foundation"); // Define a primeira categoria como padrão
+// Função para carregar arquivos .txt
+function carregarConteudoExterno(arquivo) {
+  fetch(arquivo)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Erro ao carregar o arquivo.");
+      }
+      return response.text();
+    })
+    .then(texto => {
+      textoContainer.textContent = texto;
+    })
+    .catch(error => {
+      textoContainer.textContent = "Erro ao carregar o conteúdo.";
+      console.error(error);
+    });
+}
 
-  // Carregar o conteúdo do arquivo externo para o tópico "Modelos de Implantação"
-  carregarConteudoExterno("Introdução ao Cloud Foundation", "02.txt");
+// Chamamos a função automaticamente ao carregar a página
+window.onload = () => {
+  carregarConteudo("Introdução ao Cloud Foundation"); // Define o primeiro tópico como padrão
 };

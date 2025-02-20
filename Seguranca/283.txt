@@ -1,0 +1,53 @@
+# Ciclo de vida da segurança: Prevenção
+
+### 1. Quais das três tarefas a seguir fazem parte da fase de prevenção do ciclo de vida da segurança? (Selecione TRÊS.)
+- [x] Implementar contramedidas.
+- [x] Avaliar a vulnerabilidade de ativos.
+- [ ] Detectar problemas de segurança.
+- [x] Identificar ativos a serem protegidos.
+- [ ] Restaurar operações.
+- [ ] Remover malware.
+
+**Explicação**: As atividades de prevenção incluem a implementação de medidas para evitar ataques, a avaliação contínua das vulnerabilidades e a identificação dos ativos a serem protegidos. Detectar problemas, restaurar operações e remover malware são atividades mais voltadas para a fase de resposta ou recuperação.
+
+***
+
+### 2. Qual serviço da AWS cria um inventário das instâncias do Amazon Elastic Compute Cloud (Amazon EC2) em uma conta da AWS?
+- [ ] Amazon Simple Storage Service (Amazon S3)
+- [ ] Amazon Virtual Private Cloud (Amazon VPC)
+- [x] AWS Systems Manager
+- [ ] Amazon EC2
+
+**Explicação**: O AWS Systems Manager é um serviço que permite a gestão de instâncias EC2, além de criar inventários, automatizar tarefas de administração e configurar políticas de segurança.
+
+***
+
+### 3. Qual é o benefício de usar uma estratégia de prevenção de segurança em camadas para proteger um ativo valioso?
+- [ ] O ativo valioso vai de uma camada a outra para melhor proteção.
+- [x] O ativo valioso é protegido por muitas camadas de diferentes tipos de medidas de segurança.
+- [ ] A estratégia usa apenas uma camada, que é fácil de implementar.
+- [ ] A estratégia repete as mesmas medidas de proteção em várias camadas para proteção redundante.
+
+**Explicação**: A segurança em camadas oferece múltiplos tipos de proteção para ativos, garantindo que, mesmo que uma camada falhe, outras medidas de segurança possam impedir o ataque.
+
+***
+
+### 4. Quais das opções a seguir são tipos de medidas de prevenção de segurança? (Selecione TRÊS.)
+- [ ] Replicação do banco de dados
+- [x] Reforço da rede
+- [x] Reforço de sistemas
+- [ ] Backup do sistema
+- [ ] Teste de desempenho
+- [x] Controles de segurança de dados
+
+**Explicação**: Medidas de prevenção de segurança incluem o reforço de redes e sistemas, além da implementação de controles de segurança de dados. A replicação do banco de dados e os backups são mais focados em recuperação, e testes de desempenho se concentram em otimização.
+
+***
+
+### 5. Qual declaração descreve o princípio de menor privilégio no gerenciamento de identidade?
+- [x] Conceder aos usuários acesso somente aos recursos que eles têm autorização para acessar.
+- [ ] Conceder aos usuários acesso a todos os recursos por padrão.
+- [ ] Não conceder acesso a qualquer recurso aos usuários por padrão.
+- [ ] Conceder aos usuários acesso apenas aos recursos que eles solicitarem.
+
+**Explicação**: O princípio de menor privilégio visa conceder aos usuários o menor acesso necessário para realizar suas tarefas, minimizando o risco de abusos ou acessos não autorizados.

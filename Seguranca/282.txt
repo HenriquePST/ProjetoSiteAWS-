@@ -1,0 +1,49 @@
+## 282-[SF]-KC - Introdução à segurança
+
+#### 1. Qual é o papel da confidencialidade na tríade Confidencialidade, Integridade, Disponibilidade (CIA)?
+- [x] Garante que os recursos sejam acessados somente por usuários autorizados.
+- [ ] Garante que os recursos não contenham informações particulares.
+- [ ] Garante que os recursos estejam acessíveis quando forem necessários.
+- [ ] Garante que os recursos não tenham sido adulterados.
+
+**Explicação**: A **confidencialidade** garante que os dados ou recursos sejam acessados apenas por usuários ou sistemas autorizados, protegendo informações sensíveis contra acesso não autorizado.
+
+***
+
+#### 2. Qual perspectiva de segurança está preocupada em garantir que os dados enviados através de uma rede não sejam adulterados?
+- [x] Confidencialidade
+- [ ] Integridade
+- [ ] Disponibilidade
+- [ ] Escalabilidade
+
+**Explicação**: A **confidencialidade** está relacionada à proteção contra o acesso não autorizado, mas no contexto da pergunta, **integridade** é a perspectiva de segurança que assegura que os dados não sejam alterados ou adulterados durante o envio.
+
+***
+
+#### 3. Que tipo de ameaça inunda um recurso com várias solicitações de vários sistemas?
+- [ ] Malware
+- [ ] Man-in-the-middle
+- [x] Negação de serviço distribuída (DDoS)
+- [ ] Phishing
+
+**Explicação**: Um **DDoS (Negação de Serviço Distribuída)** é um ataque em que múltiplos sistemas são usados para sobrecarregar um serviço, tornando-o inacessível ao usuário legítimo.
+
+***
+
+#### 4. Qual destas é uma fase no ciclo de vida da segurança?
+- [x] Prevenção
+- [ ] Provisionamento
+- [ ] Implantação
+- [ ] Construção
+
+**Explicação**: **Prevenção** é uma fase crítica no ciclo de vida da segurança, onde medidas são implementadas para evitar falhas de segurança, como autenticação, criptografia, etc.
+
+***
+
+#### 5. Quais das opções é um exemplo de controle de segurança administrativo?
+- [ ] Câmera de segurança do prédio
+- [ ] Software de antivírus
+- [ ] Dispositivo leitor de cartão
+- [x] Documento de Política de Uso Aceitável
+
+**Explicação**: **Controles administrativos** envolvem políticas, processos e diretrizes, como um **documento de política de uso aceitável**, que define como os recursos de TI devem ser usados para proteger a segurança.
