@@ -1,26 +1,60 @@
+const listaExercicios = document.getElementById("lista-exercicios");
+const tituloExercicios = document.getElementById("titulo-exercicios");
+const textoContainer = document.getElementById("texto-container");
+
+const exercicios = {
+  "Introdução ao Cloud Foundation": {
+    "1 - Fundamentos da AWS":
+      "📌 Fundamentos da AWS\n\nAqui você aprenderá sobre os conceitos básicos da AWS, seus serviços e como utilizá-los.",
+    "2 - Regiões e Zonas de Disponibilidade":
+      "📌 Regiões e Zonas de Disponibilidade\n\nEntenda como a AWS organiza sua infraestrutura globalmente.",
+    "3 - Introdução à computação em nuvem": "Carregando conteúdo...", // Colocamos uma mensagem de carregamento
+  }
+};
+
+async function carregarConteudoExterno(topico, nomeArquivo) {
+  try {
+    // Usando fetch para carregar o arquivo de conteúdo externo
+    const resposta = await fetch(nomeArquivo);
+    if (!resposta.ok) {
+      throw new Error("Falha ao carregar o conteúdo.");
+    }
+    const conteudo = await resposta.text();
+    
+    // Atualiza o conteúdo do tópico com o conteúdo do arquivo
+    exercicios[topico]["3 - Introdução à computação em nuvem"] = conteudo;
+
+    // Agora, chamamos a função para carregar o conteúdo na página
+    carregarConteudo(topico);
+  } catch (erro) {
+    console.error("Erro ao carregar o conteúdo: ", erro);
+  }
+}
 
 function carregarConteudo(topico) {
-    let exercicios = {
-        "Introdução ao Cloud Foundation": ["Fundamentos da AWS", "Regiões e Zonas de Disponibilidade", "Modelos de Implantação"],
-        "Introdução à segurança": ["Princípios de Segurança AWS", "IAM e Controle de Acesso", "Criptografia e Proteção de Dados"],
-        "Introdução à rede": ["VPC e Sub-redes", "Roteamento e Peering", "Segurança de Rede"],
-        "Banco de Dados": ["Amazon RDS", "DynamoDB", "Estratégias de Backup"],
-        "Simulados": ["Prova Simulada 1", "Prova Simulada 2", "Prova Simulada 3"],
-        "Provas Antigas": ["Exame 2023", "Exame 2022", "Exame 2021"]
-    };
+  listaExercicios.innerHTML = ""; // Limpar os exercícios anteriores
+  tituloExercicios.textContent = "";
 
-    let conteudo = exercicios[topico] || [];
-    let listaExercicios = document.getElementById("lista-exercicios");
-    let textoContainer = document.getElementById("texto-container");
-    
-    listaExercicios.innerHTML = "";
-    textoContainer.innerHTML = "📢 Selecione um exercício para ver o conteúdo.";
-    
-    conteudo.forEach((item, index) => {
-        let button = document.createElement("button");
-        button.className = "list-group-item list-group-item-action";
-        button.textContent = `${index + 1} - ${item}`;
-        button.onclick = () => textoContainer.innerHTML = `📌 ${item}\n\nDescrição do tópico selecionado.`;
-        listaExercicios.appendChild(button);
+  const listaTopico = exercicios[topico];
+
+  if (listaTopico) {
+    let primeiroExercicio = Object.keys(listaTopico)[0]; // Pegamos o primeiro exercício da lista
+    textoContainer.innerHTML = listaTopico[primeiroExercicio]; // Exibe o primeiro exercício no início
+
+    Object.keys(listaTopico).forEach((item) => {
+      let button = document.createElement("button");
+      button.className = "list-group-item list-group-item-action";
+      button.textContent = item;
+      button.onclick = () => (textoContainer.innerHTML = listaTopico[item]);
+      listaExercicios.appendChild(button);
     });
+  }
 }
+
+// ⬇️ Chamamos essa função automaticamente ao carregar a página
+window.onload = () => {
+  carregarConteudo("Introdução ao Cloud Foundation"); // Define a primeira categoria como padrão
+
+  // Carregar o conteúdo do arquivo externo para o tópico "Modelos de Implantação"
+  carregarConteudoExterno("Introdução ao Cloud Foundation", "02.txt");
+};

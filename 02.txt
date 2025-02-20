@@ -1,0 +1,54 @@
+# Introdução ao Cloud Foundations
+
+## 2-[CF] KC - Introdução à computação em nuvem
+
+#### 1. O que é um programa de computador?
+- [ ] Um documento que descreve como construir software
+- [ ] Um dispositivo conectado à Internet
+- [ ] Uma interface para interagir com um dispositivo como um laptop ou um smartphone
+- [x] Um conjunto de instruções que informa ao sistema como executar uma tarefa específica
+
+**Explicação**: Um **programa de computador** é um conjunto de instruções ou comandos que o computador executa para realizar uma tarefa específica. Ele pode ser um aplicativo, sistema operacional, ou qualquer outro software.
+
+***
+
+#### 2. Qual é a função da placa-mãe em um sistema de computador?
+- [ ] Executar um conjunto de instruções.
+- [x] Conectar todos os componentes.
+- [ ] Exibir informações na tela.
+- [ ] Armazenar dados.
+
+**Explicação**: A **placa-mãe** é o componente central que conecta e permite a comunicação entre todos os outros componentes do computador, como processador, memória, armazenamento, etc.
+
+***
+
+#### 3. Quais componentes são parte física de um sistema de computador? (Selecione DUAS respostas.)
+- [ ] Sistema operacional
+- [x] Placa-mãe
+- [ ] Servidor de banco de dados
+- [ ] Servidor de aplicativos web
+- [x] Placa de rede
+
+**Explicação**: **Placa-mãe** e **placa de rede** são componentes físicos de um computador. O sistema operacional, servidores de banco de dados e servidores de aplicativos são exemplos de software.
+
+***
+
+#### 4. Quais afirmações descrevem a memória de acesso aleatório (RAM)? (Selecione DUAS respostas.)
+- [ ] É feita para armazenar aplicativos, documentos e programas.
+- [x] Mantém dados temporariamente.
+- [ ] Mantém dados persistentemente.
+- [x] Pode ser acessada rapidamente.
+- [ ] Pode ser uma unidade de disco rígido (HDD) ou uma unidade de estado sólido (SSD).
+
+**Explicação**: A **RAM** é a memória volátil usada para armazenar dados temporários que o processador precisa acessar rapidamente. Ela é diferente de um HDD ou SSD, que armazenam dados permanentemente.
+
+***
+
+#### 5. Quais das seguintes opções são exemplos de sistemas operacionais? (Selecione DUAS respostas.)
+- [x] Amazon Linux 2
+- [ ] Amazon Elastic Compute Cloud (Amazon EC2)
+- [x] iOS
+- [ ] Oracle
+- [ ] MySQL Server
+
+**Explicação**: **Amazon Linux 2** e **iOS** são exemplos de sistemas operacionais. **Amazon EC2** é um serviço de computação na nuvem, enquanto **Oracle** e **MySQL Server** são sistemas de gerenciamento de banco de dados.
