@@ -1,0 +1,53 @@
+# Introdução ao Cloud Foundations
+
+## 9-[CF]-KC - Modelo de responsabilidade compartilhada
+
+#### 1. De acordo com o modelo de responsabilidade compartilhada da AWS, quais são as responsabilidades da AWS?
+- [ ] Segurança na nuvem
+- [ ] Segurança fora da nuvem
+- [ ] Segurança dentro e fora da nuvem
+- [x] Segurança da nuvem
+
+**Explicação:** No modelo de responsabilidade compartilhada, a AWS é responsável pela **segurança da nuvem**, ou seja, pela proteção da infraestrutura global que executa todos os serviços oferecidos pela AWS. Isso inclui hardware, software, redes e instalações físicas.
+
+***
+
+#### 2. Qual área de interesse o modelo de responsabilidade compartilhada da AWS aborda, além da segurança?
+- [ ] Custos
+- [ ] Desempenho
+- [x] Conformidade
+- [ ] Disponibilidade
+
+**Explicação:** Além da segurança, o modelo de responsabilidade compartilhada da AWS também aborda a **conformidade**. A AWS garante que sua infraestrutura esteja em conformidade com padrões e regulamentações, enquanto os clientes são responsáveis por garantir a conformidade de seus dados e aplicações.
+
+***
+
+#### 3. De acordo com o modelo de responsabilidade compartilhada da AWS, o cliente é responsável por quais tarefas?
+- [x] Garantir que os usuários insiram uma ID de usuário e senha antes de usarem um aplicativo
+- [ ] Proteger o prédio físico onde os servidores funcionam
+- [ ] Isolar as instâncias do servidor virtual na infraestrutura
+- [ ] Aplicar atualizações de segurança do sistema operacional aos servidores que executam um AWS managed service
+
+**Explicação:** O cliente é responsável por **garantir que os usuários insiram uma ID de usuário e senha antes de usarem um aplicativo**, o que faz parte da segurança **na** nuvem. Isso inclui gerenciar acesso, autenticação e proteção de dados.
+
+***
+
+#### 4. Qual modelo de computação em nuvem exige que o cliente se envolva mais no gerenciamento da segurança da infraestrutura?
+- [ ] Plataforma como serviço (PaaS)
+- [x] Infraestrutura como serviço (IaaS)
+- [ ] Software como serviço (SaaS)
+- [ ] Contêineres como Serviço (CaaS)
+
+**Explicação:** No modelo **IaaS (Infraestrutura como Serviço)**, o cliente tem mais responsabilidade sobre a segurança da infraestrutura, incluindo sistemas operacionais, aplicativos e dados. A AWS gerencia apenas a infraestrutura física.
+
+***
+
+#### 5. Qual modelo de computação em nuvem exige que a AWS gerencie a segurança da infraestrutura em sua totalidade?
+- [x] Software como serviço (SaaS)
+- [ ] Contêineres como Serviço (CaaS)
+- [ ] Plataforma como serviço (PaaS)
+- [ ] Infraestrutura como serviço (IaaS)
+
+**Explicação:** No modelo **SaaS (Software como Serviço)**, a AWS gerencia a segurança da infraestrutura em sua totalidade, incluindo hardware, software, redes e aplicativos. O cliente é responsável apenas pelos dados e pelo acesso ao aplicativo.
+
+***

@@ -4,9 +4,10 @@ const textoContainer = document.getElementById("texto-container");
 
 const exercicios = {
   "Introdução ao Cloud Foundation": {
-    "1 - Introdução ao Amazon S3": "Cloud/010.txt",
-    "2 - Introdução à computação em nuvem": "Cloud/02.txt",
-    "3 - O que é computação em nuvem?": "Cloud/005.txt",
+    "1 - Introdução ao Amazon S3": "Cloud/10.txt",
+    "2 - Introdução à computação em nuvem": "Cloud/2.txt",
+    "3 - O que é computação em nuvem?": "Cloud/5.txt",
+    "4 - O que é a Amazon Web Services?": "Cloud/6.txt"
 
   },
   "Introdução à segurança": {
@@ -19,7 +20,10 @@ const exercicios = {
 // Função para carregar a lista de exercícios
 function carregarConteudo(topico) {
   listaExercicios.innerHTML = ""; // Limpar a lista anterior
+  //textoContainer.innerHTML = ""; // Limpar o conteúdo do container de texto
+
   tituloExercicios.textContent = topico; // Atualizar o título
+  
 
   const listaTopico = exercicios[topico];
 
@@ -54,5 +58,5 @@ function carregarConteudoExterno(arquivo) {
 
 // Chamamos a função automaticamente ao carregar a página
 window.onload = () => {
-  carregarConteudo("Introdução ao Cloud Foundation"); // Define o primeiro tópico como padrão
+  carregarConteudo("Introdução ao Cloud Foundation");// Define o primeiro tópico como padrão
 };

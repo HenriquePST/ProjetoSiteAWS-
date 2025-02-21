@@ -1,0 +1,53 @@
+# Introdução ao Cloud Foundations
+
+## 8-[CF]-KC - Visão geral da infraestrutura da AWS
+
+#### 1. A infraestrutura global da AWS foi projetada e criada para fornecer qual competência?
+- [ ] Acesso à internet
+- [ ] Pontos de presença em todos os países do mundo
+- [ ] A mesma estrutura de custos de serviço em todas as regiões
+- [x] Escalabilidade
+
+**Explicação:** A infraestrutura global da AWS foi projetada para fornecer **escalabilidade**, permitindo que os clientes aumentem ou reduzam recursos conforme necessário, sem interrupções. Isso é essencial para atender a demandas variáveis de aplicações e serviços.
+
+***
+
+#### 2. O que é uma zona de disponibilidade?
+- [x] Um ou mais data center(s) criado(s) com isolamento de falhas
+- [ ] Uma área geográfica isolada.
+- [ ] Data centers construídos sem isolamento de falhas porque são agrupados juntos
+- [ ] Todos os data centers em um raio de 100 milhas (161 quilômetros)
+
+**Explicação:** Uma **zona de disponibilidade (AZ)** é composta por um ou mais data centers projetados com isolamento de falhas, garantindo alta disponibilidade e resiliência. Cada AZ é independente, mas conectada a outras AZs na mesma região com baixa latência.
+
+***
+
+#### 3. O que é uma Região AWS?
+- [ ] Um único data center.
+- [ ] Um grupo de data centers em um raio de 100 milhas (161 quilômetros)
+- [x] Uma área geográfica no mundo
+- [ ] Uma área geográfica nos Estados Unidos
+
+**Explicação:** Uma **Região AWS** é uma área geográfica específica no mundo que contém múltiplas zonas de disponibilidade (AZs). Cada região é isolada e projetada para operar de forma independente, garantindo conformidade com regulamentações locais e reduzindo latência.
+
+***
+
+#### 4. Quantas zonas de disponibilidade existem em uma Região AWS?
+- [ ] Uma a duas
+- [x] Duas ou mais
+- [ ] Quatro ou mais
+- [ ] No mínimo, três
+
+**Explicação:** Cada **Região AWS** possui **duas ou mais zonas de disponibilidade (AZs)**. Isso garante redundância e alta disponibilidade, permitindo que os clientes projetem aplicações resilientes a falhas.
+
+***
+
+#### 5. O que é o Amazon CloudFront?
+- [ ] Uma rede dedicada que fornece conteúdo para usuários finais na mesma zona de disponibilidade
+- [x] Uma rede global de entrega de conteúdo (CDN) que fornece conteúdo a usuários finais com latência reduzida
+- [ ] Rede de entrega de conteúdo (CDN) que fornece conteúdo em uma única localização geográfica
+- [ ] Um serviço que trabalha com provedores terceirizados para entregar conteúdo a usuários finais com latência reduzida
+
+**Explicação:** O **Amazon CloudFront** é uma **rede global de entrega de conteúdo (CDN)** que distribui conteúdo (como vídeos, imagens e APIs) para usuários finais com baixa latência e alto desempenho. Ele utiliza uma rede de servidores edge localizados em várias regiões ao redor do mundo.
+
+***

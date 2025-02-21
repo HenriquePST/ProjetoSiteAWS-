@@ -1,0 +1,57 @@
+# Introdução ao Cloud Foundations
+
+## 12-[CF]-KC - Introdução ao Amazon EC2
+
+### 1. Qual declaração descreve o serviço do Amazon EC2?
+- [ ] Ele fornece contêineres para executar aplicativos na AWS.  
+- [x] Ele fornece máquinas virtuais que são executadas na AWS.  
+- [ ] É um serviço computacional sem servidor.  
+- [ ] É uma solução que oferece aos clientes a habilidade de implantar um aplicativo a ser executado na AWS.  
+
+**Explicação:**  
+O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece máquinas virtuais chamadas de instâncias, permitindo que os usuários executem aplicações na nuvem com escalabilidade e flexibilidade.  
+
+---
+
+### 2. Um desenvolvedor deseja executar um aplicativo que carrega uma grande quantidade de dados dentro da memória em uma instância do Amazon EC2. Qual tipo de instância o desenvolvedor deve escolher para alcançar o melhor desempenho?
+- [ ] Uso geral  
+- [ ] Computação acelerada  
+- [x] Otimizada para memória  
+- [ ] Otimizada para computação  
+
+**Explicação:**  
+Instâncias otimizadas para memória são projetadas para cargas de trabalho que exigem grande capacidade de memória, como bancos de dados na memória e processamento de big data.  
+
+---
+
+### 3. Qual das ações a seguir preserva os dados em uma instância do Amazon EC2 que usa um armazenamento de instância como volume raiz?
+- [x] Reinicializar  
+- [ ] Interromper  
+- [ ] Terminar  
+- [ ] Hibernar  
+
+**Explicação:**  
+O armazenamento de instância é um tipo de armazenamento temporário no EC2. Quando a instância é reinicializada, os dados permanecem. No entanto, se a instância for interrompida ou encerrada, os dados são perdidos.  
+
+---
+
+### 4. Qual das opções a seguir são verdadeiras sobre security groups para instâncias do Amazon EC2? (Selecione DUAS respostas.)
+- [ ] Eles oferecem suporte a regras que negam tráfego de fontes especificadas.  
+- [x] Eles oferecem suporte adicionando regras que permitem o tráfego de fontes especificadas.  
+- [ ] Eles permitem todo o tráfego de entrada por padrão.  
+- [x] Eles permitem todo o tráfego de saída por padrão.  
+- [ ] Uma instância do EC2 pode usar apenas um security group.  
+
+**Explicação:**  
+Security Groups no Amazon EC2 atuam como firewalls virtuais que controlam o tráfego de entrada e saída das instâncias. Eles permitem apenas o tráfego que for explicitamente permitido e, por padrão, liberam todo o tráfego de saída.  
+
+---
+
+### 5. Uma empresa precisa executar um aplicativo tolerante a falhas e que tolere interrupções na AWS. Qual modelo de preço atenderia melhor aos requisitos e permitiria reduzir o custo o máximo possível?
+- [ ] Instância on-demand  
+- [ ] Instâncias reservadas  
+- [ ] Instâncias dedicadas  
+- [x] Instâncias spot  
+
+**Explicação:**  
+As instâncias spot oferecem preços reduzidos em comparação com as instâncias on-demand, mas podem ser interrompidas pela AWS caso os recursos sejam necessários para outras cargas de trabalho. Elas são ideais para aplicações tolerantes a falhas e que podem ser reiniciadas conforme necessário.  

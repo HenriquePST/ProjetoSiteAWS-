@@ -1,0 +1,60 @@
+# Introdução ao Cloud Foundations
+
+## 7-[CF]-KC - Fundamentos da definição de preço da AWS
+
+#### 1. Quais tipos de transferência de dados são gratuitas para o Amazon S3? (Selecione DUAS respostas.)
+- [ ] Transferência de dados de saída do Amazon S3 para o Amazon EC2 em diferentes regiões
+- [x] Transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região
+- [ ] Transferência de dados de entrada do Amazon EC2 para o Amazon S3 em diferentes regiões
+- [x] Transferência de dados de entrada da Internet para o Amazon S3
+- [ ] Transferência de dados de saída do Amazon S3 para a internet
+
+**Explicação:** A AWS não cobra pela transferência de dados de entrada da Internet para o Amazon S3 nem pela transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região. Essas transferências são gratuitas para incentivar o uso de serviços integrados e reduzir custos.
+
+***
+
+#### 2. Quais opções de pagamento estão disponíveis para a maioria das instâncias reservadas do Amazon EC2? (Selecione TRÊS respostas.)
+- [x] Pagamento total antecipado
+- [x] Pagamento antecipado parcial
+- [x] Nenhum pagamento antecipado
+- [ ] Pagamento parcelado
+- [ ] Pagamento trimestral
+- [ ] Pagamento por hora
+
+**Explicação:** As instâncias reservadas do Amazon EC2 oferecem três opções de pagamento: pagamento total antecipado (menor custo total), pagamento antecipado parcial (menos custo inicial) e nenhum pagamento antecipado (maior flexibilidade). Isso permite que os clientes escolham o modelo que melhor se adapta ao seu orçamento.
+
+***
+
+#### 3. Quais declarações descrevem os benefícios do uso da calculadora de preço da AWS? (Selecione TRÊS respostas.)
+- [ ] Oferece um conjunto de relatórios padrão que fornece informações sobre fatores de custo e tendências de uso.
+- [ ] Oferece aos clientes a capacidade de configurar um período de tempo personalizado e visualizar o uso de dados em níveis diários ou mensais.
+- [x] Estima os custos mensais de serviços.
+- [x] Oferece aos clientes a capacidade de criar estimativas para os casos de uso da AWS.
+- [ ] Fornece aos clientes a capacidade de criar orçamentos anuais, trimestrais, mensais ou até diários dependendo das necessidades de negócio.
+- [x] Pode ajudar a identificar oportunidades de redução de custos.
+
+**Explicação:** A calculadora de preço da AWS permite estimar custos mensais, criar estimativas personalizadas para casos de uso específicos e identificar oportunidades de redução de custos. É uma ferramenta essencial para planejar e otimizar os gastos com a AWS.
+
+***
+
+#### 4. Quais categorias são fatores fundamentais de custos com a AWS? (Selecione TRÊS respostas.)
+- [x] Computação
+- [ ] Redes e entrega de conteúdo
+- [x] Armazenamento
+- [ ] Compras de hardware
+- [x] Transferência de dados
+- [ ] Taxas de encerramento de serviço
+
+**Explicação:** Os principais fatores de custo na AWS são computação (como instâncias EC2), armazenamento (como Amazon S3) e transferência de dados (como saída de dados para a Internet). Esses são os componentes mais comuns que impactam o custo total.
+
+***
+
+#### 5. Qual serviço da AWS os clientes podem usar para criar estimativas, compartilhar uma estimativa com um link exclusivo e revisitar quaisquer estimativas diretamente por meio de um navegador?
+- [ ] AWS Trusted Advisor
+- [ ] AWS Cloud Economics Center
+- [x] Calculadora de preço da AWS
+- [ ] AWS Cost Explorer
+
+**Explicação:** A **Calculadora de preço da AWS** é a ferramenta que permite criar estimativas de custos, compartilhá-las com um link único e revisitar as estimativas salvas diretamente no navegador. É uma ferramenta essencial para planejamento e análise de custos.
+
+***
