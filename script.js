@@ -20,8 +20,8 @@ const exercicios = {
 // Função para carregar a lista de exercícios
 function carregarConteudo(topico) {
   listaExercicios.innerHTML = ""; // Limpar a lista anterior
-  //textoContainer.innerHTML = ""; // Limpar o conteúdo do container de texto
-
+  textoContainer.innerHTML = ""; // Limpar o conteúdo do container de texto
+  textoContainer.innerHTML = topico; // Atualizar o título
   tituloExercicios.textContent = topico; // Atualizar o título
   
 
