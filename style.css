@@ -1,35 +1,42 @@
+
 body {
-    background-color: #1A2332;
-    color: rgb(119, 36, 36);
- 
+    
+    background-image:url('./img/aws2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
+
 
 
 .sidebar {
-    background-color: #313030; 
-    background-image: url('/img/aws.jpg'); /* Substitua pelo caminho correto da imagem */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-attachment: fixed; /* Fixa a imagem na tela */
+    background-image:url('./img/aws1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15px;
 }
-
 
 .main-content {
     padding: 20px;
 }
+
 .card-header {
-    background-color: #d9534f;
-    color: rgb(226, 56, 56);
+    background-color: #dadada;
+    color: white;
 }
+
 .btn-custom {
     background-color: #d9534f;
     border: none;
 }
 
 .list-group-item-action:hover {
-    background-color: #dc3545; /* Vermelho Bootstrap */
-    color: rgb(183, 61, 61);
+    background-color: #ff4d4d;
+    color: white;
 }
 
 .info-container {
@@ -40,29 +47,24 @@ body {
     border-radius: 8px;
     border: 1px solid #fff;
 }
-h4,h2 {
+
+h4, h2 {
     color: #d9534f;
     text-align: center;
 }
 
-.footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-   
-    }
+
 
 .container-fluid {
     display: flex;
-   
-    min-height: 100vh; /* Faz o conteúdo ocupar a altura total da tela */
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .main-content {
-    flex: 1; /* Faz o conteúdo ocupar o máximo possível do espaço */
+    flex: 1;
 }
 
 #titulo-exercicios {
     display: none;
 }
-
