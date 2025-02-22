@@ -36,7 +36,14 @@ const exercicios = {
     "17 - Recursos de segurança da AWS": "Seguranca/298.txt",
   },
 
- 
+  "Introdução à rede": {
+    "1 - Introdução à rede": "Rede/254.txt",
+    "2 - Conceitos de rede": "Rede/255.txt",
+    "3 - Protocolo de Internet (IP)": "Rede/256.txt",
+    "4 - Amazon VPC": "Rede/257.txt",
+    "5 - Sub-redes IPv4": "Rede/258.txt",
+    "6 - TCP e UDP": "Rede/259.txt",
+    "7 - Tecnologias de rede adicionais": "Rede/260.txt",
   },
 };
 
