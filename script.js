@@ -4,10 +4,16 @@ const textoContainer = document.getElementById("texto-container");
 
 const exercicios = {
   "Introdução ao Cloud Foundation": {
-    "1 - Introdução ao Amazon S3": "Cloud/10.txt",
-    "2 - Introdução à computação em nuvem": "Cloud/2.txt",
-    "3 - O que é computação em nuvem?": "Cloud/5.txt",
-    "4 - O que é a Amazon Web Services?": "Cloud/6.txt"
+"1 - Introdução à computação em nuvem": "Cloud/2.txt",  
+"2 - O que é computação em nuvem?": "Cloud/5.txt",  
+"3 - O que é a Amazon Web Services?": "Cloud/6.txt",  
+"4 - Fundamentos da definição de preço da AWS": "Cloud/7.txt",  
+"5 - Visão geral da infraestrutura da AWS": "Cloud/8.txt",  
+"6 - Modelo de responsabilidade compartilhada": "Cloud/9.txt",  
+"7 - Introdução ao Amazon S3": "Cloud/10.txt",  
+"8 - Introdução ao Amazon EC2": "Cloud/12.txt",  
+"9 - Vantagens da computação em nuvem": "Cloud/208.txt",  
+"10 -Serviços e categorias da AWS": "Cloud/209.txt"
 
   },
   "Introdução à segurança": {
