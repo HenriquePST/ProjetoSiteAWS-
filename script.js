@@ -53,6 +53,7 @@ function carregarConteudo(topico) {
   textoContainer.innerHTML = ""; // Limpar o conteúdo do container de texto
   textoContainer.innerHTML = topico; // Atualizar o título
   tituloExercicios.textContent = topico; // Atualizar o título
+  
 
   const listaTopico = exercicios[topico];
 
