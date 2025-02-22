@@ -1,6 +1,6 @@
 # Introdução ao Cloud Foundations
 
-## 5-[CF]-KC - O que é computação em nuvem?
+## [CF]-KC - O que é computação em nuvem?
 
 #### 1. Qual declaração descreve a computação em nuvem?
 - [ ] Ela oferece serviços sob um contrato de preço fixo.

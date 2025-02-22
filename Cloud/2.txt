@@ -1,6 +1,6 @@
 # Introdução ao Cloud Foundations
 
-## 2-[CF] KC - Introdução à computação em nuvem
+## [CF] KC - Introdução à computação em nuvem
 
 #### 1. O que é um programa de computador?
 - [ ] Um documento que descreve como construir software
