@@ -1,0 +1,47 @@
+### 1. Os dispositivos se comunicam com serviços de nuvem utilizando várias tecnologias e protocolos. Quais opções os dispositivos não usam para se comunicar com o serviço na nuvem?
+
+- [x] Protocolo de correios (POP)
+- [ ] Dados de celular banda estreita
+- [ ] Dados de celular banda larga
+- [ ] Rede de longa distância (LoRaWAN)
+- [ ] Internet Wi-Fi ou banda larga
+
+**Explicação:** O Protocolo de Correios (POP) é usado para recuperar e-mails de servidores de e-mail, não para comunicação com serviços de nuvem. As outras opções são tecnologias usadas para comunicação com serviços de nuvem.
+
+### 2. Qual protocolo de comunicação o AWS IoT Core usa para se comunicar com os dispositivos? (Selecione DUAS respostas.)
+
+- [ ] Protocolo de Transferência de Hipertexto (HTTP)
+- [x] Protocolo de transferência de hipertexto (HTTPS)
+- [x] Transporte de telemetria MQ (MQTT)
+- [ ] Privacidade equivalente com fio (WEP)
+- [ ] Wi-Fi com acesso protegido (WPA)
+
+**Explicação:** O AWS IoT Core usa HTTPS e MQTT para comunicação com dispositivos. HTTPS é usado para comunicação segura, enquanto MQTT é um protocolo leve para telemetria.
+
+### 3. Qual é o objetivo da Internet das Coisas (IoT)?
+
+- [ ] Fornecer uma rede segura e robusta de eletrodomésticos para permitir ajustes instantâneos nos parâmetros operacionais para garantir a eficiência.
+- [ ] Permitir que objetos cotidianos, como refrigeradores, aquecedores, ventiladores e sistemas de ar condicionado (HVAC), desempenhem funções duplas como dispositivos de rede, como pontos de acesso sem fio, switches e roteadores.
+- [x] Fazer com que dispositivos que possam se conectar à internet relatem dados e sejam monitorados ou controlados remotamente.
+- [ ] Estabelecer uma solução única de conectividade sem fio que incorpore todos os seus dispositivos sem fio, tanto em casa como em trânsito.
+
+**Explicação:** O objetivo da IoT é conectar dispositivos à internet para que possam relatar dados e serem monitorados ou controlados remotamente.
+
+### 4. Quais soluções facilitam a mobilidade empresarial para empresas que oferecem suporte a opções de trabalho remoto? (Selecione DUAS respostas.)
+
+- [ ] Rede de longa distância (LoRaWAN)
+- [x] Gerenciamento de dispositivos móveis (MDM)
+- [ ] Gateway de dispositivos
+- [x] Traga seu próprio dispositivo (BYOD)
+- [ ] Internet das Coisas (IoT)
+
+**Explicação:** O Gerenciamento de Dispositivos Móveis (MDM) e a política Traga seu Próprio Dispositivo (BYOD) facilitam a mobilidade empresarial, permitindo que os funcionários trabalhem remotamente com seus próprios dispositivos de forma segura.
+
+### 5. Qual serviço da AWS oferece suporte a trabalho remoto e treinamento remoto fornecendo desktops virtuais Microsoft Windows e Linux que podem ser acessados em qualquer lugar e de qualquer dispositivo?
+
+- [ ] AWS IoT Core
+- [x] Amazon WorkSpaces
+- [ ] Amazon Virtual Private Cloud (Amazon VPC)
+- [ ] Amazon Elastic Compute Cloud (Amazon EC2)
+
+**Explicação:** O Amazon WorkSpaces fornece desktops virtuais Microsoft Windows e Linux que podem ser acessados de qualquer lugar e de qualquer dispositivo, suportando trabalho remoto e treinamento remoto.

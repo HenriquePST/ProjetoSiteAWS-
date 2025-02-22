@@ -1,0 +1,55 @@
+# Introdução à segurança
+
+## 295-[SF]-KC - Trusted Advisor
+
+#### 1. Quais das seguintes são categorias nas quais o AWS Trusted Advisor fornece recomendações? (Selecione DUAS respostas.)
+- [x] Otimização de custos
+- [ ] Design de banco de dados
+- [ ] Planejamento de migração
+- [ ] Detecção de ameaças
+- [x] Tolerância a falhas
+
+**Explicação**: O **AWS Trusted Advisor** fornece recomendações em várias áreas, incluindo **otimização de custos**, ajudando a identificar recursos subutilizados que podem ser otimizados, e **tolerância a falhas**, que sugere melhorias para garantir que os sistemas sejam resilientes a falhas.
+
+---
+
+#### 2. Quais das seguintes verificações do Trusted Advisor estão disponíveis gratuitamente? (Selecione DUAS respostas.)
+- [ ] Baixo uso de instâncias do Amazon Elastic Compute Cloud (Amazon EC2)
+- [x] Autenticação com multifator (MFA) em conta raiz
+- [x] Uso do AWS Identity and Access Management (IAM)
+- [ ] Política do AWS Identity and Access Management (IAM)
+- [ ] Registro em log de um bucket do Amazon Simple Storage Service (Amazon S3)
+
+**Explicação**: O **AWS Trusted Advisor** oferece verificações gratuitas como a **autenticação com multifator (MFA)** em contas raiz e o uso do **AWS Identity and Access Management (IAM)** para garantir que as boas práticas de segurança sejam seguidas.
+
+---
+
+#### 3. O que uma verificação vermelha do AWS Trusted Advisor (ponto de exclamação (!)) significa?
+- [x] A ação é recomendada.
+- [ ] A ação é necessária.
+- [ ] Serviços que levantaram sinais de alerta foram desativados.
+- [ ] Uma investigação é recomendada.
+
+**Explicação**: Uma verificação **vermelha** (indicada por um ponto de exclamação) do **AWS Trusted Advisor** significa que **uma ação é recomendada**, pois pode haver um problema que precisa ser resolvido para melhorar a segurança ou a eficiência dos recursos.
+
+---
+
+#### 4. Qual é o limiar de limites de serviço que causa um aviso de verificação dos limites de serviço?
+- [x] 80%
+- [ ] 70%
+- [ ] 90%
+- [ ] 95%
+
+**Explicação**: O **AWS Trusted Advisor** emite um aviso de verificação quando o limite de serviço atinge **80%**, alertando para a necessidade de monitorar e gerenciar os recursos de forma eficaz para evitar a sobrecarga dos limites.
+
+---
+
+#### 5. O AWS Trusted Advisor levanta um status de verificação vermelha (ponto de exclamação (!)) para acesso irrestrito aos grupos de segurança. Que ação deve ser tomada?
+- [x] Adicionar regras que dão acesso a endereços IP autorizados ao grupo de segurança identificado.
+- [ ] Adicionar uma regra que proíba todo o acesso de entrada ao grupo de segurança identificado.
+- [ ] Adicionar uma regra que proíba todo o acesso de saída ao grupo de segurança identificado.
+- [ ] Transformar todas as sub-redes públicas em sub-redes privadas.
+
+**Explicação**: Quando o **AWS Trusted Advisor** levanta uma verificação vermelha para **acesso irrestrito aos grupos de segurança**, a ação recomendada é **adicionar regras que restringem o acesso a endereços IP autorizados** para evitar exposições desnecessárias aos recursos da AWS.
+
+---

@@ -1,0 +1,50 @@
+## **286-[SF]-KC - Prevenção: Segurança de dados**
+
+### 1. Qual termo melhor descreve a disciplina que incorpora os princípios e técnicas para o fornecimento da segurança de dados?
+- [ ] Integridade dos dados
+- [ ] Descriptografia
+- [x] Criptografia
+- [ ] Criptografia
+
+**Explicação**: A **criptografia** é a disciplina que envolve a aplicação de técnicas matemáticas para **proteger os dados**, garantindo que eles permaneçam confidenciais e seguros, seja durante o armazenamento ou transmissão. A criptografia converte dados em um formato ilegível para qualquer pessoa que não possua a chave apropriada para descriptografá-los.
+
+---
+
+### 2. Qual destas é uma das vantagens da criptografia simétrica?
+- [x] A chave é um segredo compartilhado entre o remetente e o receptor.
+- [ ] Tem uma estrutura de criptografia complexa.
+- [ ] A criptografia usa uma chave privada e uma chave pública (um par de chaves).
+- [ ] É considerada mais segura do que a criptografia assimétrica.
+
+**Explicação**: A **criptografia simétrica** utiliza uma **única chave secreta** compartilhada entre o remetente e o receptor. Isso significa que tanto quem envia quanto quem recebe a mensagem usa a mesma chave para criptografar e descriptografar os dados, o que simplifica o processo, mas exige que a chave seja protegida durante a comunicação.
+
+---
+
+### 3. Qual é o objetivo da criptografia?
+- [ ] Integridade
+- [ ] Autenticação
+- [x] Confidencialidade
+- [ ] Precisão
+
+**Explicação**: O principal objetivo da **criptografia** é garantir a **confidencialidade** dos dados. Isso significa que, mesmo que uma comunicação seja interceptada, os dados não poderão ser lidos ou acessados sem a chave de criptografia apropriada, protegendo assim a privacidade da informação.
+
+---
+
+### 4. Quais protocolos usam o método de criptografia híbrida como um modo de criptografia? (Selecione DUAS respostas.)
+- [ ] Protocolo de Internet (IP)
+- [x] Transport Layer Security (TLS)
+- [x] Secure Sockets Layer (SSL)
+- [ ] Protocolo de Transferência de Hipertexto (HTTP)
+- [ ] Transmission Control Protocol (TCP)
+
+**Explicação**: Os protocolos **TLS** e **SSL** utilizam uma abordagem de **criptografia híbrida**. Isso significa que eles combinam criptografia simétrica e assimétrica. Inicialmente, a comunicação é criptografada com criptografia assimétrica para trocar chaves de sessão de forma segura, e depois utiliza-se criptografia simétrica para a comunicação subsequente, proporcionando eficiência e segurança.
+
+---
+
+### 5. Quem tem a chave privada para descriptografar uma mensagem de criptografia de forma assimétrica?
+- [ ] Tanto para o remetente e destinatário da mensagem
+- [x] O destinatário da mensagem
+- [ ] O dispositivo que enviou a mensagem
+- [ ] O remetente da mensagem
+
+**Explicação**: Na **criptografia assimétrica**, o **destinatário** da mensagem tem a **chave privada** necessária para **descriptografar** a mensagem. O remetente utiliza a chave pública do destinatário para criptografar os dados, e apenas o destinatário, com sua chave privada correspondente, pode descriptografá-los.

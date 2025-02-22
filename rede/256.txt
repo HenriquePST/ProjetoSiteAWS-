@@ -1,0 +1,47 @@
+
+256-NF -KC Protocolo de Internet (IP)
+
+### 1. A qual dispositivo deve ser atribuído um endereço IP estático?
+
+- [ ] Um computador de trabalho que foi ligado
+- [ ] Um laptop pessoal que um engenheiro de rede ocasionalmente traz para o trabalho
+- [ ] Um telefone celular
+- [x] Uma impressora
+
+**Explicação:** Dispositivos como impressoras, que precisam ser acessíveis de forma consistente na rede, devem ter um endereço IP estático. Isso garante que o endereço não mude, facilitando o acesso e a configuração.
+
+### 2. Uma rede tem o seguinte intervalo de endereços IP: 10.0.0.0 – 10.255.255.255. Qual endereço IP é o endereço de transmissão da rede?
+
+- [ ] 10.0.0.254
+- [ ] 10.0.0.1
+- [x] 10.255.255.255
+- [ ] 10.0.255.254
+
+**Explicação:** O endereço de transmissão (broadcast) em uma rede é o endereço IP mais alto no intervalo da rede. Para o intervalo 10.0.0.0 – 10.255.255.255, o endereço de transmissão é 10.255.255.255.
+
+### 3. Um engenheiro de rede quer separar uma rede da internet e de outras redes. Que tipo de endereço IP o engenheiro deve usar?
+
+- [ ] Endereço IP estático
+- [ ] Endereço IP público
+- [ ] Endereço IP dinâmico
+- [x] Endereço IP privado
+
+**Explicação:** Endereços IP privados são usados dentro de redes locais e não são roteáveis na internet, o que ajuda a isolar a rede interna da internet e de outras redes externas.
+
+### 4. Quantos bits constituem um endereço IPv4?
+
+- [x] 32 bits
+- [ ] 8 bits
+- [ ] 16 bits
+- [ ] 4 bits
+
+**Explicação:** Um endereço IPv4 é composto por 32 bits, geralmente representados como quatro números decimais separados por pontos (por exemplo, 192.168.1.1).
+
+### 5. Qual declaração descreve a finalidade de um número de porta?
+
+- [x] Quando um número de porta é combinado com um endereço IP, ele identifica exclusivamente uma origem ou um destino para comunicação de dados.
+- [ ] Um número de porta atribui um número a um endereço IP.
+- [ ] Um número de porta é usado para identificar exclusivamente um dispositivo físico em uma rede.
+- [ ] O número da porta não tem uma finalidade.
+
+**Explicação:** Um número de porta, quando combinado com um endereço IP, identifica exclusivamente um serviço ou aplicação em um dispositivo, permitindo a comunicação de dados entre origem e destino.

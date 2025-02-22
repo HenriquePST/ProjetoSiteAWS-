@@ -1,0 +1,50 @@
+## 289-[SF]-KC - Prevenção: AWS IAM
+
+### 1. Qual é o objetivo do gerenciamento de identidades?
+- [ ] Gerenciar as respostas às ameaças de segurança com base no tipo de usuário
+- [ ] Identificar todos os sistemas que podem ser acessados pelos usuários
+- [ ] Detectar ameaças de segurança e notificar os usuários
+- [x] Administrar usuários e suas normas das classes
+
+**Explicação**: O **gerenciamento de identidades** tem como principal objetivo **administrar usuários**, incluindo suas permissões e o controle sobre quem pode acessar o quê dentro de um sistema. Isso envolve definir políticas de acesso para garantir que os usuários só tenham acesso ao que é necessário para suas funções.
+
+---
+
+### 2. Quais etapas de segurança são executadas durante um login típico? (Selecione DUAS respostas.)
+- [x] Autorização
+- [ ] Prevenção
+- [ ] Consolidação
+- [x] Autenticação
+- [ ] Ativação
+
+**Explicação**: O processo de login envolve **autenticação**, que verifica se o usuário é quem ele afirma ser, e **autorização**, que determina o que o usuário pode ou não fazer dentro do sistema após a autenticação ser concluída. Ambas são etapas fundamentais para garantir a segurança do acesso.
+
+---
+
+### 3. Qual destes é um exemplo de fator de autenticação?
+- [ ] Algoritmo de criptografia
+- [ ] Política de firewall
+- [x] Autenticação com multifator (MFA)
+- [ ] Servidor de autenticação
+
+**Explicação**: **Autenticação com multifator (MFA)** é um exemplo de **fator de autenticação**, onde o usuário precisa fornecer dois ou mais fatores (como uma senha e um código enviado ao celular) para se autenticar. Isso torna o processo de login mais seguro, exigindo que algo mais além da senha seja fornecido.
+
+---
+
+### 4. Onde você define as ações que podem ou não ser realizadas por um usuário?
+- [ ] Nas configurações do grupo ao qual o usuário foi adicionado
+- [x] Em um documento de política anexado ao usuário
+- [ ] Em um documento de permissões
+- [ ] Nas configurações de um usuário do AWS Identity and Access Management (IAM)
+
+**Explicação**: As **ações que um usuário pode realizar** são definidas por **documentos de política** no **AWS IAM**, que especificam o que o usuário tem permissão para fazer em relação aos recursos e serviços da AWS. Essas políticas podem ser anexadas diretamente ao usuário ou a grupos dos quais ele faz parte.
+
+---
+
+### 5. Qual destas é uma prática recomendada para gerenciamento de identidade?
+- [ ] Usar contas de grupo.
+- [ ] Evitar Single Sign-On.
+- [ ] Gerenciar senhas manualmente.
+- [x] Implementar políticas de senha.
+
+**Explicação**: Uma **prática recomendada** para o **gerenciamento de identidade** é **implementar políticas de senha**, garantindo que as senhas atendam a requisitos de complexidade e segurança. Isso ajuda a proteger as contas de acesso contra tentativas de invasão, reforçando a segurança da autenticação de usuários.

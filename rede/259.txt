@@ -1,0 +1,48 @@
+### 1. Quais protocolos são usados para proteger aplicativos web? (Selecione DUAS respostas.)
+
+- [ ] Protocolo de transferência de arquivos (FTP)
+- [x] Secure Sockets Layer (SSL)
+- [x] Transport Layer Security (TLS)
+- [ ] Protocolo de Texto de Transferência de Hipertexto (HTTP)
+- [ ] Wi-Fi com acesso protegido (WPA2)
+
+**Explicação:** SSL e TLS são protocolos usados para criptografar a comunicação entre clientes e servidores, protegendo aplicativos web. FTP, HTTP e WPA2 não são usados para proteger aplicativos web da mesma forma.
+
+### 2. Quais declarações sobre HTTP são verdadeiras? (Selecione DUAS respostas.)
+
+- [x] HTTP é um protocolo cliente-servidor.
+- [ ] HTTP é mais seguro do que HTTPS.
+- [ ] O número de porta padrão para HTTP é 443.
+- [ ] HTTP atua na camada 5 do modelo OSI.
+- [x] O número de porta padrão para HTTP é 80.
+
+**Explicação:** HTTP é um protocolo cliente-servidor que opera na camada de aplicação (camada 7 do modelo OSI) e usa a porta 80 por padrão. HTTPS, que usa SSL/TLS, é mais seguro que HTTP e usa a porta 443.
+
+### 3. Quais mensagens estão incluídas em um handshake TCP? (Selecione TRÊS respostas.)
+
+- [ ] Finalizado (FYN)
+- [x] Reconhecer (ACK)
+- [x] SYN/ACK
+- [ ] Reenviar
+- [x] Sincronizar (SYN)
+- [ ] Repita.
+
+**Explicação:** O handshake TCP envolve três mensagens principais: SYN (sincronizar) enviado pelo cliente, SYN/ACK (sincronizar/reconhecer) enviado pelo servidor e ACK (reconhecer) enviado pelo cliente para estabelecer a conexão.
+
+### 4. Um administrador de rede está solucionando problemas de rede e deseja analisar pacotes para exibir informações TCP/IP e outras informações de pacote que estão sendo transmitidas ou recebidas pela rede. Qual comando e opção ele deve usar?
+
+- [ ] netstat
+- [ ] ifconfig
+- [ ] whoami
+- [x] tcpdump
+
+**Explicação:** O comando `tcpdump` é usado para capturar e analisar pacotes de rede, exibindo informações detalhadas sobre o tráfego TCP/IP e outros pacotes na rede.
+
+### 5. Qual protocolo de área de trabalho remota é popular entre os técnicos de suporte remoto e é um protocolo proprietário da Microsoft?
+
+- [ ] Framebuffer remoto (RFB)
+- [ ] Computação em rede virtual (VNC)
+- [x] Protocolo de desktop remoto (RDP)
+- [ ] Arquitetura de computação independente (ICA)
+
+**Explicação:** O Protocolo de Desktop Remoto (RDP) é um protocolo proprietário da Microsoft amplamente utilizado para acesso remoto a desktops e servidores.

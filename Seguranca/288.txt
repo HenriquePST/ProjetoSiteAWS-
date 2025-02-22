@@ -1,0 +1,49 @@
+## 288-[SF]-KC - Prevenção: Gerenciamento de identidades
+
+### 1. Qual é o objetivo da autorização no gerenciamento de identidades?
+- [ ] Provar a identidade do usuário
+- [ ] Registrar um acesso do usuário
+- [x] Determinar as permissões do usuário
+- [ ] Validar a senha de um usuário
+
+**Explicação**: O objetivo da **autorização** no **gerenciamento de identidades** é **determinar as permissões do usuário** após sua identidade ser confirmada. A autorização define o que o usuário tem permissão para fazer dentro do sistema, como acessar recursos ou realizar determinadas ações, com base nas políticas associadas à sua conta.
+
+---
+
+### 2. Qual das opções é um fator de autenticação baseado em suas características?
+- [x] Leitor de impressão digital
+- [ ] Senha
+- [ ] Cartão inteligente
+- [ ] Pen drive
+
+**Explicação**: O **leitor de impressão digital** é um exemplo de **fator de autenticação baseado em características físicas** (biometria). Ele verifica uma característica única e pessoal do usuário (neste caso, a impressão digital) como forma de autenticação, oferecendo um nível extra de segurança em comparação com senhas tradicionais.
+
+---
+
+### 3. Que tipo de ataque usa uma lista de palavras predefinidas como senhas para tentar fazer login em um sistema?
+- [ ] Tabela Hash
+- [ ] Ataque à negação de serviço distribuída (DDoS)
+- [ ] Ataque à tabela arco-íris
+- [x] Ataque ao dicionário
+
+**Explicação**: O **ataque ao dicionário** é um tipo de ataque em que um **agressor tenta adivinhar a senha** do usuário usando uma lista predefinida de palavras (ou um "dicionário"). Isso é feito tentando várias combinações comuns ou palavras de uso frequente até encontrar a senha correta.
+
+---
+
+### 4. Que formato o AWS Identity and Access Management (IAM) usa para definir as regras de autorização?
+- [x] Formato JSON
+- [ ] Formato docker
+- [ ] Formato do grupo
+- [ ] Formato do usuário
+
+**Explicação**: O **AWS Identity and Access Management (IAM)** usa o **formato JSON (JavaScript Object Notation)** para definir as regras de **autorização**. As políticas de IAM são escritas em JSON, permitindo que sejam facilmente lidas e aplicadas para definir as permissões de acesso a recursos na AWS.
+
+---
+
+### 5. Qual destas é uma forma de Single Sign-On em que uma conta é usada para vários serviços?
+- [ ] Identidades independentes
+- [x] Identidades federadas
+- [ ] Identidades de relacionamento
+- [ ] Identidades de diretório
+
+**Explicação**: **Identidades federadas** permitem que um **usuário utilize uma única conta** para acessar vários serviços. Isso é uma forma de **Single Sign-On (SSO)**, onde o usuário realiza login uma vez e obtém acesso a múltiplos sistemas sem precisar fazer login novamente em cada um deles. Isso simplifica o gerenciamento de identidades e aumenta a conveniência para os usuários.

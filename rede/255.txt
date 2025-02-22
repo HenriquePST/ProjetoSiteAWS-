@@ -1,0 +1,47 @@
+###
+
+### 1. Qual declaração descreve de forma precisa a função de uma rede de área local (LAN) e uma rede de área ampla (WAN)?
+
+- [ ] Uma LAN conecta nós e hosts em uma grande área geográfica. Uma WAN conecta nós e hosts em uma área geograficamente limitada.
+- [x] Uma LAN conecta nós e hosts em uma área geograficamente limitada. Uma WAN conecta várias LANs para criar uma rede mais expansiva que possa cobrir grandes áreas geográficas, como cidades.
+- [ ] Uma LAN conecta servidores, mas uma WAN conecta dispositivos de computador.
+- [ ] Uma LAN é usada para redes com fio, e uma WAN, para redes sem fio.
+
+**Explicação:** Uma LAN (Local Area Network) é projetada para conectar dispositivos em uma área geograficamente limitada, como um escritório, casa ou campus. Já uma WAN (Wide Area Network) conecta várias LANs, permitindo a comunicação entre redes que podem estar localizadas em diferentes cidades, países ou até continentes. Isso torna a WAN ideal para cobrir grandes áreas geográficas.
+
+### 2. Considere as similaridades entre a topologia tradicional de rede e os serviços AWS. Qual dos seguintes não é um serviço AWS comparável com a uma topologia tradicional de rede se essas similaridades são comparadas?
+
+- [ ] Tabelas de rota
+- [ ] Internet gateway
+- [ ] Security groups e listas de controle de acesso à rede (rede ACLs)
+- [x] Transit gateway da AWS
+- [ ] Sub-redes
+
+**Explicação:** O Transit Gateway da AWS é um serviço que facilita a conexão entre várias VPCs (Virtual Private Clouds) e redes locais, mas não tem um equivalente direto em uma topologia tradicional de rede. Os outros itens listados têm equivalentes diretos em redes tradicionais.
+
+### 3. Qual é a topologia híbrida mais comum utilizada hoje?
+
+- [ ] Topologia de malha
+- [ ] Topologia de barramento
+- [x] Topologia de barramento estrela
+- [ ] Topologia estrela
+
+**Explicação:** A topologia de barramento estrela é uma combinação das topologias de barramento e estrela, sendo amplamente utilizada em redes híbridas devido à sua flexibilidade e eficiência.
+
+### 4. Qual declaração descreve um protocolo sem conexão?
+
+- [ ] É conhecido como Protocolo de Controle de Transmissão (TCP).
+- [ ] É conhecido por sua confiabilidade e grande sobrecarga.
+- [x] Ele envia uma mensagem para o destino sem garantir que o destino está disponível.
+- [ ] Quando os dados são enviados, ele espera por uma resposta do destino.
+
+**Explicação:** Um protocolo sem conexão, como o UDP (User Datagram Protocol), envia mensagens sem estabelecer uma conexão prévia ou garantir a entrega, o que o torna mais rápido, mas menos confiável.
+
+### 5. Qual declaração descreve um protocolo de conexão orientada?
+
+- [x] Cria uma sessão entre o remetente e o receptor.
+- [ ] Seu uso é melhor para transmissões que dependem de velocidade e não de confiabilidade.
+- [ ] É conhecido como Protocolo de datagrama de usuário (UDP).
+- [ ] Não requer uma sessão entre o remetente e o receptor.
+
+**Explicação:** Um protocolo de conexão orientada, como o TCP (Transmission Control Protocol), estabelece uma sessão entre o remetente e o receptor antes de enviar dados, garantindo a entrega confiável e ordenada dos pacotes.

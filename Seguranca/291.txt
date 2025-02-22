@@ -1,0 +1,54 @@
+# Introdução à segurança
+
+## 291-[SF]-KC - AWS CloudTrail (somente em inglês)
+
+### 1. What is AWS CloudTrail?
+- [x] A web service that uses log files to record Amazon Web Service (AWS) events
+- [ ] A web service that controls other Amazon Web Services (AWS) services through application programming interface (API) calls
+- [ ] A web service that manages users and permissions
+- [ ] A web service that assesses application vulnerabilities
+
+**Explicação**: **AWS CloudTrail** é um serviço que usa **arquivos de log** para registrar eventos e **ações realizadas** nos serviços da AWS. Ele fornece visibilidade e rastreabilidade das operações feitas por usuários, serviços e sistemas, o que é essencial para auditorias e análises de segurança.
+
+---
+
+### 2. What are the key benefits of AWS CloudTrail? (Select TWO.)
+- [x] It provides visibility by recording user and resource activities.
+- [ ] It improves application security by filtering inbound and outbound data.
+- [x] It simplifies compliance audits by recording activities and events into logs files.
+- [ ] It simplifies threat detection by detecting malicious activities.
+- [ ] It gives customers the ability to migrate on-premises applications to the Amazon Web Services (AWS) Cloud.
+
+**Explicação**: O **AWS CloudTrail** oferece **visibilidade** ao registrar atividades de usuários e recursos, ajudando na **auditoria de conformidade**. Ele grava eventos e ações em arquivos de log, permitindo uma revisão clara das interações com os serviços da AWS para conformidade e segurança.
+
+---
+
+### 3. Which types of information do AWS CloudTrail events capture when a user performs a service request? (Select TWO.)
+- [ ] The Amazon Web Services (AWS) events that the user request invokes
+- [ ] The cost of the call to the service
+- [ ] The size of the request in kilobytes (KB)
+- [x] The user who performed the request
+- [x] The IP address where the request originated
+
+**Explicação**: O **AWS CloudTrail** captura informações detalhadas, incluindo **quem** fez a solicitação (usuário) e **de onde** ela foi feita (endereço IP). Esses dados são essenciais para auditorias de segurança e rastreamento de atividades maliciosas ou não autorizadas.
+
+---
+
+### 4. Which statements are best practices for working with AWS CloudTrail? (Select TWO.)
+- [x] Aggregate log files to a single Amazon Simple Storage Service (Amazon S3) bucket.
+- [x] Turn on file integrity validation for CloudTrail.
+- [ ] Integrate CloudTrail with Amazon Elastic Compute Cloud (Amazon EC2).
+- [ ] Integrate CloudTrail with AWS Lambda.
+- [ ] Ensure that CloudTrail is available in only one Amazon Web Services (AWS) Region.
+
+**Explicação**: **Melhores práticas** incluem **agregar os arquivos de log em um único bucket S3**, o que facilita a análise e o armazenamento, e **ativar a validação de integridade de arquivos**, garantindo que os logs não sejam alterados ou corrompidos. Essas práticas aumentam a confiabilidade e a segurança dos dados coletados pelo CloudTrail.
+
+---
+
+### 5. Why is integrating AWS CloudTrail with Amazon CloudWatch considered a good practice?
+- [x] CloudWatch monitors and reacts to events recorded in CloudTrail log files.
+- [ ] CloudWatch transforms CloudTrail log files into a file format that the user defines.
+- [ ] CloudWatch secures access to CloudTrail log files.
+- [ ] Users can use CloudWatch to store CloudTrail log files.
+
+**Explicação**: A integração do **AWS CloudTrail** com o **Amazon CloudWatch** é uma boa prática porque o **CloudWatch** pode monitorar e **responder a eventos** registrados nos arquivos de log do CloudTrail. Isso permite reações automáticas e mais rápidas a eventos de segurança ou operacionais, melhorando a vigilância e a resposta a incidentes.

@@ -1,0 +1,53 @@
+##  **294-[SF]-KC - Ciclo de vida da segurança: Análise**  
+
+### 1. Qual fase do ciclo de vida da segurança analisa o que aconteceu após uma violação de segurança?
+- [ ] Prevenção
+- [ ] Detecção
+- [x] Análise
+- [ ] Resposta
+
+**Explicação**: A fase de **análise** no ciclo de vida da segurança é onde se investiga o que ocorreu após uma violação de segurança. Isso inclui entender as causas e os impactos da violação, o que ajuda a melhorar as medidas de proteção no futuro.
+
+---
+
+### 2. Qual etapa é executada durante a análise de causa raiz (RCA)?
+- [x] Estabelecer um cronograma, começando com as operações de referência e terminando com a ocorrência do problema.
+- [ ] Implementar medidas preventivas para proteger os recursos.
+- [ ] Descrever as ações a serem executadas quando ocorrer um problema.
+- [ ] Estabelecer uma projeção para quando o negócio voltar ao normal.
+
+**Explicação**: Durante a **análise de causa raiz (RCA)**, é crucial **estabelecer um cronograma** para entender a linha do tempo dos eventos, começando com as operações normais e chegando até a ocorrência do problema. Isso ajuda a identificar a origem e a sequência do incidente.
+
+---
+
+### 3. Qual destes é um benefício do monitoramento e registro?
+- [ ] Aumenta o desempenho do aplicativo.
+- [ ] Corrige ameaças de segurança.
+- [ ] Previne ameaças de segurança.
+- [x] Fornece os dados usados para a identificação do problema.
+
+**Explicação**: O **monitoramento e registro** fornecem dados cruciais para identificar problemas de segurança, permitindo que a equipe de segurança compreenda melhor o que ocorreu e como lidar com incidentes futuros de forma mais eficiente.
+
+---
+
+### 4. Uma empresa acabou de se recuperar de uma violação de segurança do cavalo de Troia e está realizando uma análise de segurança. Que perguntas a empresa deve fazer durante a análise? (Selecione DUAS respostas.)
+- [x] Como a violação poderia ter sido evitada?
+- [ ] A empresa pode prestar queixa contra a pessoa que fez o ataque?
+- [ ] Quem é o gerente que permitiu que a violação acontecesse?
+- [ ] Como a violação deve ser informada ao público?
+- [x] Como a violação aconteceu?
+
+**Explicação**: Durante a análise, é importante perguntar **como a violação aconteceu** e **como poderia ter sido evitada**. Isso ajuda a entender as falhas no sistema de segurança e como implementar melhorias preventivas para evitar futuros incidentes.
+
+---
+
+### 5. O que uma política de monitoramento define? (Selecione DUAS respostas.)
+- [ ] Quem revisa a política?
+- [x] Quais recursos são monitorados?
+- [x] Quem realiza as tarefas de monitoramento?
+- [ ] Onde a política é armazenada?
+- [ ] Quando a política é aprovada?
+
+**Explicação**: Uma **política de monitoramento** define **quais recursos são monitorados** e **quem realiza as tarefas de monitoramento**, garantindo que a segurança seja acompanhada ativamente, e ações corretivas possam ser tomadas rapidamente quando necessário.
+
+---

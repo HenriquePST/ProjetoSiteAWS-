@@ -1,0 +1,53 @@
+# Introdução à segurança
+
+## 292-[SF]-KC - AWS Config
+
+### 1. O que é o AWS Config?
+- [ ] Uma ferramenta que ajuda a reduzir custos
+- [ ] Uma ferramenta que registra as chamadas da interface de programação de aplicativo (API) aos serviços da Amazon Web Services (AWS) em arquivos de log
+- [x] Uma ferramenta que rastreia mudanças nos recursos
+- [ ] Uma ferramenta que ajuda a configurar redes seguras na Amazon Web Services (AWS)
+
+**Explicação**: O **AWS Config** é uma ferramenta de **monitoramento e auditoria** que rastreia as mudanças nos recursos da AWS. Ele permite que você monitore a configuração dos recursos, detecte alterações e avalie o histórico de configurações.
+
+---
+
+### 2. Quais são os recursos do AWS Config? (Selecione DUAS respostas.)
+- [x] Recuperação de inventário de recursos da Amazon Web Services (AWS).
+- [x] Envio de notificações quando ocorre uma alteração de configuração em um recurso da Amazon Web Services (AWS).
+- [ ] Envio de notificação quando uma ameaça aos recursos da Amazon Web Services (AWS) é detectada.
+- [ ] Verificação de uso de serviço para ver os limites do serviço.
+- [ ] Capacitação do usuário para configurar grupos de segurança mais seguros.
+
+**Explicação**: O **AWS Config** permite **recuperar inventários de recursos da AWS** e **enviar notificações** quando há alterações nas configurações dos recursos. Isso ajuda a manter o controle sobre a infraestrutura e garante que as mudanças sejam monitoradas em tempo real.
+
+---
+
+### 3. Qual ferramenta os clientes podem usar para definir regras personalizadas para o AWS Config?
+- [ ] AWS CloudFormation
+- [ ] AWS Elastic Beanstalk
+- [ ] Gateway de API da Amazon
+- [x] AWS Lambda
+
+**Explicação**: O **AWS Lambda** é usado para **definir regras personalizadas** no AWS Config. Isso permite que os clientes criem funções que serão acionadas automaticamente quando ocorrerem alterações na configuração dos recursos, permitindo a aplicação de regras específicas para conformidade e segurança.
+
+---
+
+### 4. Quais ações o AWS Config adota quando ocorre uma alteração de configuração em um serviço da Amazon Web Services (AWS)? (Selecione DUAS respostas.)
+- [ ] O AWS Config chama o AWS Trusted Advisor para avaliar o nível de segurança dos aplicativos.
+- [x] O AWS Config usa o Amazon Simple Notification Service (Amazon SNS) para enviar uma notificação.
+- [ ] O AWS Config chama o AWS CloudTrail para registrar a alteração em arquivos de log.
+- [x] O AWS Config registra e armazena a alteração em um bucket do Amazon Simple Storage Service (Amazon S3).
+- [ ] O AWS Config corrige a alteração se ela viola uma regra da Amazon Web Services (AWS).
+
+**Explicação**: Quando ocorre uma **alteração de configuração**, o **AWS Config** envia notificações através do **Amazon SNS** e também **registra e armazena** a alteração em um bucket do **Amazon S3** para fins de auditoria e monitoramento.
+
+---
+
+### 5. Quando a regra do AWS Config associada a um recurso é avaliada?
+- [ ] Quando o recurso é iniciado
+- [x] Quando a configuração do recurso é alterada
+- [ ] Quando o recurso é interrompido
+- [ ] Quando uma função do AWS Lambda inicia a avaliação
+
+**Explicação**: As **regras do AWS Config** são avaliadas **sempre que a configuração de um recurso é alterada**. Isso permite que o AWS Config verifique se as alterações estão em conformidade com as regras definidas, garantindo que os recursos atendam aos requisitos de segurança e conformidade.

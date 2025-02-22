@@ -1,0 +1,49 @@
+## **287-[SF]-KC - Prevenção: PKI**
+
+### 1. Quem assina e emite certificados para entidades e gerencia a confiança e os relacionamentos?
+- [x] As autoridades de certificação (CAs)
+- [ ] Certificados
+- [ ] Listas de revogação
+- [ ] Autoridades de registro (RAs)
+
+**Explicação**: As **autoridades de certificação (CAs)** são responsáveis por **assinar e emitir certificados** digitais para entidades. Elas também gerenciam a **confiança e os relacionamentos** entre as partes, verificando e validando identidades antes de emitir certificados, estabelecendo um vínculo de confiança entre o titular do certificado e outras entidades.
+
+---
+
+### 2. O que é um certificado digital?
+- [x] Uma credencial eletrônica usada para representar a identidade de um indivíduo, computador ou outra entidade.
+- [ ] Uma credencial eletrônica que identifica a rede usada por duas entidades que se comunicam
+- [ ] Um componente que criptografa os dados trocados entre as duas entidades que se comunicam
+- [ ] Um arquivo que contém permissões de segurança
+
+**Explicação**: Um **certificado digital** é uma **credencial eletrônica** usada para **representar a identidade** de uma pessoa, computador ou outra entidade, em uma rede. Ele contém informações de identidade, a chave pública do titular, e é assinado por uma autoridade de certificação para garantir sua autenticidade.
+
+---
+
+### 3. Qual recurso é usado com Secure Sockets Layer (SSL) e Transport Layer Security (TLS) para estabelecer uma conexão segura entre um cliente e um servidor?
+- [x] Chave pública e chave privada
+- [ ] Modelo do certificado
+- [ ] Autoridade de certificação (CA)
+- [ ] Solicitação de assinatura de certificado
+
+**Explicação**: A **chave pública e chave privada** são usadas em conjunto com os protocolos SSL e TLS para estabelecer uma **conexão segura** entre o cliente e o servidor. A chave pública é utilizada para criptografar dados e a chave privada para descriptografar, garantindo a segurança da comunicação.
+
+---
+
+### 4. O site de uma empresa está apresentando um erro de autoridade de certificação (CA) inválida para os usuários. Qual poderia ser a causa desse problema?
+- [ ] O usuário está usando uma CA raiz.
+- [ ] O servidor da empresa está fora do ar.
+- [ ] O usuário tem um problema de conexão.
+- [x] O certificado da CA expirou.
+
+**Explicação**: Se o site apresenta um erro de **autoridade de certificação inválida**, uma possível causa é que o **certificado da CA expirou**. As CAs têm um prazo de validade para seus certificados, e se o certificado expirar, ele será considerado inválido, o que resultará nesse erro.
+
+---
+
+### 5. Como a confiança é atingida entre duas partes ao usar princípios da infraestrutura de chave pública (PKI)?
+- [ ] Por meio de chaves públicas e privadas que validam as identidades das partes
+- [ ] Por uma autoridade de certificação externa (CA) que valida as identidades das partes
+- [x] Pela troca de chaves públicas que validam as identidades das partes
+- [ ] Pela troca de chaves privadas que validam as identidades das partes
+
+**Explicação**: A confiança é estabelecida pela **troca de chaves públicas** entre as partes, que permitem que ambas validem as identidades uma da outra. A infraestrutura de chave pública (PKI) usa um par de chaves (pública e privada) para garantir a autenticidade e segurança das comunicações entre as partes envolvidas.

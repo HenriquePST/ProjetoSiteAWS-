@@ -1,0 +1,50 @@
+##  293-[SF]-KC - Ciclo de vida da segurança: Resposta**  
+
+#### 1. Quais planos são usados para minimizar o impacto do tempo de inatividade não planejado? (Selecione DUAS respostas.)
+
+- [ ] Plano de teste
+- [x] Plano de continuidade de negócios (BCP)
+- [ ] Plano de garantia de qualidade
+- [ ] Plano de gerenciamento de software
+- [x] Plano de recuperação de desastres (DRP)
+
+- Plano de continuidade de negócios (BCP): Garante que as operações essenciais continuem durante e após um desastre.
+
+- Plano de recuperação de desastres (DRP): Foca na recuperação de sistemas e dados após um desastre.
+
+#### 2. Qual é o objetivo de um plano de continuidade de negócio (BCP)?
+
+- [ ] Definir o objetivo do tempo de recuperação (RTO) e do objetivo do ponto de recuperação (RPO)
+- [x] Definir como administrar o negócio com capacidade reduzida
+- [ ] Definir como se recuperar de uma interrupção
+- [ ] Definir como investigar qualquer evento de segurança
+
+- O objetivo de um plano de continuidade de negócio (BCP) é definir como administrar o negócio com capacidade reduzida durante e após uma interrupção, garantindo que as operações essenciais continuem funcionando.
+
+#### 3. Qual é o objetivo do plano de recuperação de desastres (DRP)?
+
+- [x] Definir como restaurar a funcionalidade de negócios rapidamente após a ocorrência de um desastre
+- [ ] Identificar os possíveis desastres que podem acontecer ao negócio
+- [ ] Identificar os indivíduos responsáveis pelo desastre
+- [ ] Definir como administrar o negócio com capacidade reduzida após a ocorrência de um desastre
+ 
+- O objetivo do plano de recuperação de desastres (DRP) é definir como restaurar a funcionalidade de negócios rapidamente após a ocorrência de um desastre. Isso inclui a recuperação de sistemas, dados e infraestrutura crítica para minimizar o tempo de inatividade.
+
+#### 4. Quais declarações descrevem a finalidade do objetivo de ponto de recuperação (RPO)? (Selecione DUAS respostas.)
+
+- [ ] Define o tempo de recuperação de trabalho (WRT).
+- [x] Foca na recuperação apenas de dados.
+- [x] Representa a quantidade de perda de dados tolerada por uma empresa.
+- [ ] Estabelece a quantia máxima de tempo que um recurso pode ficar indisponível.
+- [ ] Foca na recuperação de toda a infraestrutura de TI.
+
+#### 5. Qual das opções de recuperação de desastres abaixo é uma versão mínima de um ambiente executado em nuvem?
+
+- [ ] Backup
+- [ ] Replicação
+- [ ] Bucket do S3
+- [x] Chama piloto
+
+A opção de recuperação de desastres que é uma versão mínima de um ambiente executado em nuvem é a Chama piloto. Essa abordagem permite que uma versão reduzida do ambiente seja mantida em nuvem para rápida recuperação em caso de desastre.
+
+---

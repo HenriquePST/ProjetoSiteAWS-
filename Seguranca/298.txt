@@ -1,0 +1,54 @@
+##  Introdução à segurança
+
+### 1. **Quais recursos da Amazon Web Services (AWS) os clientes podem usar para deixar os aplicativos mais seguros?**
+   - [ ] Nível gratuito da AWS
+   - [x] Equipes de conta da AWS
+   - [ ] AWS DevOps e toolkit de automação
+   - [x] Consultorias e boletins da AWS
+   - [ ] AWS Command Line Interface (AWS CLI)
+
+   **Explicação**: As **Equipes de conta da AWS** fornecem orientação durante a implementação, incluindo segurança. **Consultorias e boletins da AWS** oferecem recursos informativos sobre segurança e atualizações. Ambos são recursos importantes para melhorar a segurança de aplicativos na AWS.
+
+---
+
+2. **Quais recursos da Amazon Web Services (AWS) os clientes podem usar para oferecer suporte à conformidade para seus aplicativos?**
+   - [x] Caminho de aprendizagem para auditores da AWS
+   - [x] Equipes de conta da AWS
+   - [ ] Diagramas de arquitetura de referência da AWS
+   - [ ] Guias técnicos da AWS
+   - [ ] Consultorias e boletins da AWS
+
+   **Explicação**: O **Caminho de aprendizagem para auditores da AWS** é uma coleção de recursos educacionais que ajudam auditores a entender a conformidade. As **Equipes de conta da AWS** também são fundamentais para fornecer suporte à conformidade, orientando os clientes durante a implementação e análise.
+
+---
+
+3. **Um engenheiro de segurança descobriu uma vulnerabilidade em um serviço da Amazon Web Services (AWS). Onde esse engenheiro relatou o que encontrou?**
+   - [ ] AWS DevOps e toolkit de automação
+   - [ ] Helpdesk da AWS
+   - [ ] Amazon Cognito
+   - [x] Consultorias e boletins da AWS
+
+   **Explicação**: Quando há uma vulnerabilidade em um serviço da AWS, o engenheiro deve relatar o incidente para os **Consultorias e boletins da AWS**, que são canais adequados para comunicar problemas de segurança, além de fornecer atualizações relevantes sobre vulnerabilidades e correções.
+
+---
+
+4. **O que o suporte empresarial da Amazon Web Services (AWS) oferece?**
+   - [x] Suporte 24 horas por dia, 7 dias por semana, por telefone, chat ou e-mail
+   - [ ] Um tempo de resposta de menos de 15 minutos para todos os problemas
+   - [ ] Um consultor dedicado da AWS Professional Services
+   - [x] Um technical account manager (TAM) da AWS dedicado
+   - [ ] Um consultor dedicado da AWS Partner Network (APN)
+
+   **Explicação**: O **Suporte 24 horas por dia, 7 dias por semana**, oferece acesso constante ao suporte da AWS, enquanto um **Technical Account Manager (TAM)** dedicado ajuda os clientes com suporte proativo, identificando problemas e recomendando soluções.
+
+---
+
+5. **Qual declaração descreve o serviço que as equipes de contas da Amazon Web Services (AWS) fornecem?**
+   - [x] Eles orientam os clientes durante a implantação e implementação.
+   - [ ] Eles fornecem suporte ao cliente para aplicativos implantados.
+   - [ ] Eles realizam testes de segurança nos aplicativos do cliente, como teste de penetração.
+   - [ ] Eles fornecem aos clientes relatórios de conformidade de seus aplicativos.
+
+   **Explicação**: As **Equipes de conta da AWS** são responsáveis por ajudar os clientes a entender e implementar as soluções AWS de maneira eficiente. Eles orientam durante a **implantação e implementação**, mas não realizam testes de segurança ou fornecem relatórios de conformidade diretamente.
+
+---

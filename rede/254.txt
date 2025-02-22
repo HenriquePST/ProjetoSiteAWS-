@@ -1,0 +1,70 @@
+# Introdução à rede
+
+### 1. Qual declaração descreve uma rede de computadores?
+
+- [ ] Uma rede de computadores é um grupo de computadores fisicamente conectados entre si por meio de um cabo.
+- [ ] Uma rede de computadores é uma coleção de roteadores e switches que compartilham dados entre si.
+- [ ] Uma rede de computadores é uma coleção de serviços executados na nuvem.
+- [x] Uma rede de computadores é uma coleção de dispositivos de computação logicamente conectados para comunicar e compartilhar recursos.
+
+**Explicação:** Uma rede de computadores é definida como uma coleção de dispositivos de computação (como computadores, servidores, impressoras) que estão logicamente conectados para permitir a comunicação e o compartilhamento de recursos, como dados, aplicativos e hardware. A conexão pode ser física (cabos) ou sem fio (Wi-Fi).
+
+### 2. Qual é a função de um servidor no modelo de computação cliente e servidor?
+
+- [x] O servidor responde a uma solicitação do cliente.
+- [ ] O servidor solicita a resposta do cliente.
+- [ ] O servidor armazena as respostas de uma solicitação do cliente.
+- [ ] O servidor não tem uma função.
+
+**Explicação:**
+No modelo de computação **cliente-servidor**, há dois componentes principais:
+1. **Cliente** → Responsável por enviar solicitações ao servidor. Pode ser um navegador, um aplicativo ou qualquer outro dispositivo que consome serviços.
+2. **Servidor** → Processa as solicitações do cliente e retorna uma resposta.
+Esse modelo é a base da comunicação na internet e em redes empresariais. Alguns exemplos comuns são:
+- Quando você acessa um site, seu navegador (**cliente**) solicita a página a um **servidor web**, que envia o conteúdo de volta.
+
+### 3. Em qual camada do modelo de Interconexão de Sistemas Abertos (OSI) os dados são considerados uma mensagem ou um quadro?
+
+- [x] Camada 2
+- [ ] Camada 3
+- [ ] Camada 1
+- [ ] Camada 4
+
+ **Explicação:**
+O modelo **OSI (Open Systems Interconnection)** define como os dados são transmitidos em redes, organizando-os em **7 camadas**.  
+
+- **Camada 1 (Física)** → Transmite bits puros pelo meio físico (cabos, rádio, fibra óptica).
+- **Camada 2 (Enlace de Dados)** → Aqui os dados são organizados em **quadros (frames)** e incluem endereços MAC para comunicação local.
+- **Camada 3 (Rede)** → Nesta camada, os dados são organizados em **pacotes** e roteados entre redes diferentes (exemplo: IP na internet).
+- **Camada 4 (Transporte)** → Trabalha com **segmentos** ou **mensagens**, garantindo entrega confiável.
+
+Os **quadros (frames)** são unidades de dados na **Camada 2** e contêm informações como endereços MAC e códigos de erro para transmissão confiável dentro de uma rede local (LAN).  
+
+
+### 4. Qual declaração descreve um endereço de Controle de Acesso de Mídia (MAC) e como ele é usado por uma placa de interface de rede (NIC)?
+
+- [x] É um identificador físico exclusivo atribuído pelo fabricante. A NIC o utiliza para identificar dados sobre o remetente e o receptor.
+- [ ] É um identificador que pode ser atribuído novamente ou alterado. A NIC o utiliza para identificar dados sobre o remetente e o receptor.
+- [ ] É um identificador lógico único. A NIC o utiliza para identificar dados sobre o remetente e o receptor.
+- [ ] É um identificador que não pode ser alterado. A NIC o utiliza para identificar somente o remetente.
+
+**Explicação:**
+O **endereço MAC (Media Access Control)** é um identificador físico único atribuído à **Placa de Interface de Rede (NIC)** pelo fabricante. Ele é utilizado na **Camada 2 (Enlace de Dados)** do modelo OSI para identificar dispositivos em uma rede local (LAN).  
+
+- O **endereço MAC** tem **48 bits** e é geralmente representado em formato hexadecimal (exemplo: `00:1A:2B:3C:4D:5E`).
+- Ele **identifica exclusivamente um dispositivo** dentro de uma rede local.
+- Embora o endereço MAC seja **originalmente fixo**, pode ser alterado via software em alguns casos.
+
+### 5. Qual dispositivo transmite dados de entrada para o dispositivo receptor usando apenas endereços de Controle de Acesso de Mídia (MAC)?
+
+- [ ] Firewall  
+- [ ] Hub  
+- [ ] Peer  
+- [x] Switch  
+
+ **Explicação:**
+- Switch: Usa os endereços MAC para encaminhar os dados diretamente ao dispositivo correto dentro da rede, tornando a comunicação mais eficiente.  
+- Hub: Reenvia os dados para **todos** os dispositivos conectados, sem usar endereços MAC, o que gera tráfego desnecessário na rede.  
+- Firewall: Atua na segurança da rede, filtrando pacotes de dados com base em regras configuradas, mas não encaminha pacotes com base em MAC.  
+- Peer: Refere-se a dispositivos que se comunicam diretamente em redes ponto a ponto (P2P), não sendo um equipamento específico para encaminhamento de dados.  
+

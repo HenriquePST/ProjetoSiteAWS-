@@ -1,0 +1,51 @@
+## 290-[SF]-KC - Ciclo de vida da segurança: Detecção
+
+### 1. Quais métodos de infecção o malware usa? (Selecione DUAS respostas.)
+- [ ] Cartão de acesso ao prédio
+- [ ] Impressão digital
+- [x] Site não confiável
+- [x] Spam
+- [ ] Dispositivo removível
+
+**Explicação**: O **malware** pode se espalhar por meio de **sites não confiáveis** que instalam vírus ou outros tipos de software malicioso automaticamente. Além disso, o **spam** (mensagens de correio eletrônico não solicitadas) é outra forma comum de disseminação de malware, geralmente por meio de links ou anexos maliciosos.
+
+---
+
+### 2. Qual das opções é uma contramedida de malware?
+- [ ] Registrar acesso do usuário.
+- [x] Fazer uma varredura regular dos sistemas.
+- [ ] Dimensionar servidores virtuais.
+- [ ] Monitorar roteadores.
+
+**Explicação**: Uma **contramedida eficaz contra malware** é realizar uma **varredura regular dos sistemas**. Isso ajuda a identificar e remover qualquer malware que possa ter sido instalado no sistema, garantindo que ele seja detectado e isolado antes que cause danos.
+
+---
+
+### 3. Qual opção é uma prática recomendada ao usar um software de antivírus?
+- [x] Atualizar os arquivos de definição de vírus com frequência.
+- [ ] Verificar apenas a memória do computador.
+- [ ] Relatar achados da varredura ao fornecedor do antivírus de forma consistente.
+- [ ] Trocar de programas de antivírus frequentemente.
+
+**Explicação**: A **atualização regular dos arquivos de definição de vírus** é fundamental para garantir que o software antivírus tenha as últimas informações sobre as ameaças emergentes. Isso permite que o antivírus detecte novas ameaças e proteja o sistema contra malware mais recente.
+
+---
+
+### 4. Onde o sistema de detecção de intrusão pode ser instalado? (Selecione DUAS respostas.)
+- [ ] Em um firewall
+- [ ] Em um roteador
+- [x] Em um servidor
+- [x] Em uma rede
+- [ ] Em uma placa de interface de rede
+
+**Explicação**: O **sistema de detecção de intrusão** pode ser instalado em locais estratégicos como **servidores** e **redes**, onde ele monitora atividades suspeitas e tenta identificar tentativas de intrusão. Ele ajuda a detectar comportamentos anômalos que possam indicar uma violação de segurança.
+
+---
+
+### 5. Qual das alternativas é a origem de dados usada pelo Amazon GuardDuty para analisar e detectar ameaças?
+- [x] Registros de fluxo da nuvem privada virtual (VPC)
+- [ ] Achados da varredura do antivírus
+- [ ] Notificações por e-mail
+- [ ] Alertas do firewall
+
+**Explicação**: O **Amazon GuardDuty** usa os **registros de fluxo da nuvem privada virtual (VPC)** como uma das fontes primárias para detectar ameaças e atividades suspeitas. Esses registros fornecem dados sobre o tráfego de rede e ajudam a identificar comportamentos fora do padrão que possam ser indicativos de ataques ou compromissos de segurança.

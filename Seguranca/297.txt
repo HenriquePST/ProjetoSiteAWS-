@@ -1,0 +1,55 @@
+# Introdução à segurança
+
+## 297-[SF]-KC - Programa de conformidade de segurança da AWS
+
+#### 1. Que tipo de requisitos as normas de conformidade com a segurança abordam? (Selecione DUAS respostas.)
+- [x] Regulatórios
+- [ ] Custo
+- [ ] Faturamento
+- [ ] Contabilidade
+- [x] Contratuais
+
+**Explicação**: As normas de conformidade de segurança abordam requisitos **regulatórios**, que garantem que as práticas e operações estejam de acordo com as leis e regulamentações governamentais, e **contratuais**, que garantem que as partes envolvidas cumpram as obrigações definidas em contratos ou acordos.
+
+---
+
+#### 2. Que tipo de violação de conformidade pode resultar em penalidades criminais?
+- [ ] Práticas recomendadas
+- [ ] Padrões abertos
+- [x] Regulamentos governamentais
+- [ ] Nível de produtividade
+
+**Explicação**: **Regulamentos governamentais** são normas legais que, se violadas, podem resultar em penalidades criminais, uma vez que envolvem o não cumprimento das leis estabelecidas pelo governo em áreas como segurança de dados e proteção de informações confidenciais.
+
+---
+
+#### 3. Qual declaração identifica com precisão os responsáveis por satisfazer os requisitos de conformidade de segurança na nuvem da Amazon Web Services (AWS)?
+- [ ] O cliente é o único responsável por atender aos padrões de conformidade.
+- [x] O cliente e a AWS compartilham a responsabilidade por atender aos padrões de conformidade.
+- [ ] A AWS é a única responsável por atender aos padrões de conformidade.
+- [ ] O cliente, a AWS e parceiros terceiros são responsáveis por atender aos padrões de conformidade.
+
+**Explicação**: Na **AWS**, a responsabilidade pela conformidade de segurança é **compartilhada** entre o **cliente e a AWS**, sendo a AWS responsável pela infraestrutura subjacente da nuvem, enquanto o cliente é responsável pela configuração, proteção e gestão de dados e aplicativos na nuvem.
+
+---
+
+#### 4. Qual é o objetivo do programa de gerenciamento de risco empresarial da Amazon Web Services (AWS)?
+- [ ] Fornecer treinamento de segurança para os clientes da AWS
+- [ ] Analisar violações de segurança
+- [ ] Verificar os aplicativos do cliente uma vez por ano
+- [x] Criar e manter políticas de segurança
+
+**Explicação**: O objetivo do programa de gerenciamento de risco empresarial da AWS é **criar e manter políticas de segurança** para mitigar riscos e garantir que as melhores práticas de segurança sejam implementadas em toda a plataforma AWS.
+
+---
+
+#### 5. Como a Amazon Web Services (AWS) compartilha informações de segurança? (Selecione DUAS respostas.)
+- [ ] Publicando práticas de controle em uma newsletter à qual os clientes podem se inscrever
+- [x] Publicando informações sobre segurança da AWS em documentos técnicos
+- [x] Disponibilizando informações por meio do portal AWS Artifact
+- [ ] Fornecendo toda a documentação para conformidade com a segurança da AWS no site da AWS
+- [ ] Publicando relatórios de auditoria independentes de terceiros, conforme solicitado pelos clientes
+
+**Explicação**: A AWS compartilha informações de segurança **publicando documentos técnicos**, que fornecem detalhes sobre práticas de segurança e controles na nuvem, e **disponibilizando informações no AWS Artifact**, que é um portal para acessar documentos de conformidade e relatórios relevantes.
+
+---

@@ -1,0 +1,47 @@
+257-NF-KC - Amazon VPC
+
+
+### 1. Qual afirmação descreve melhor a Amazon Virtual Private Cloud (Amazon VPC)?
+
+- [ ] É uma rede on-premises.
+- [ ] É um serviço da Web de sistema de nomes de domínio (DNS) altamente disponível e dimensionável.
+- [x] Permite que você crie uma rede privada na Nuvem AWS.
+- [ ] É usada para gerenciar apenas redes públicas na nuvem AWS.
+
+**Explicação:** A Amazon VPC permite que você crie uma rede privada virtual na Nuvem AWS, onde você pode lançar recursos da AWS em uma rede virtual que você define.
+
+### 2. Qual recurso deve ser especificado ao criar uma nuvem privada virtual (VPC)?
+
+- [ ] Balancedor de carga do Elastic Load Balancing
+- [ ] Instância do Amazon Elastic Compute Cloud (Amazon EC2)
+- [ ] Sistema Linux
+- [x] Intervalo de endereços IP
+
+**Explicação:** Ao criar uma VPC, você deve especificar um intervalo de endereços IP para a rede. Isso define o espaço de endereçamento IP para a VPC.
+
+### 3. Qual recurso se beneficiaria por estar em uma sub-rede privada?
+
+- [ ] Um site da empresa que requer acesso externo e interno do público e dos funcionários.
+- [x] Um banco de dados
+- [ ] Um site público
+- [ ] Uma instância Amazon Elastic Compute Cloud (Amazon EC2) que hospeda um site com um endereço IP público que deve ser acessado a partir da Internet.
+
+**Explicação:** Um banco de dados se beneficiaria por estar em uma sub-rede privada, pois isso limita o acesso direto da internet, aumentando a segurança.
+
+### 4. Qual é o propósito de uma tabela de rota?
+
+- [ ] Ela limita o tráfego, permitindo apenas endereços IP especificados.
+- [x] Ela determina para onde o tráfego de rede é direcionado dentro da nuvem privada virtual (VPC).
+- [ ] Ela determina para onde todo o tráfego é direcionado fora da nuvem privada virtual (VPC).
+- [ ] Ela é responsável apenas pelo tráfego de rede em uma sub-rede.
+
+**Explicação:** Uma tabela de rota é usada para determinar para onde o tráfego de rede é direcionado dentro de uma VPC, permitindo o controle do fluxo de tráfego entre sub-redes e outros recursos.
+
+### 5. Qual afirmação descreve melhor um grupo de segurança?
+
+- [ ] Ele atua como um firewall stateless que controla somente o tráfego de rede de saída.
+- [ ] Ele atua como um firewall stateless que controla somente o tráfego de entrada.
+- [ ] Ele atua como um firewall stateful que permite todo o tráfego por padrão.
+- [x] Ele atua como um firewall stateful que controla o tráfego de rede de entrada e o tráfego de rede de saída.
+
+**Explicação:** Um grupo de segurança atua como um firewall stateful, controlando tanto o tráfego de entrada quanto o de saída para instâncias associadas.

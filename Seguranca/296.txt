@@ -1,0 +1,53 @@
+# Introdução à segurança
+
+## 296-[SF]-KC - Práticas recomendadas de segurança para a criação de conta
+
+#### 1. O que é usado para autenticar o usuário-raiz da conta da Amazon Web Services (AWS) no console de gerenciamento da AWS?
+- [ ] Par de chaves
+- [x] E-mail
+- [ ] Chave de acesso
+- [ ] Nome do usuário
+
+**Explicação**: O **e-mail** é utilizado para autenticar o usuário-raiz no console de gerenciamento da AWS. O usuário-raiz é a primeira conta criada na AWS e usa o e-mail e senha para acessar os recursos da conta, sendo uma das formas mais básicas de autenticação.
+
+---
+
+#### 2. Que tipo de permissões um usuário-raiz de conta da Amazon Web Services (AWS) possui?
+- [x] Acesso completo a todos os serviços e recursos da AWS
+- [ ] Acesso de administrador a todos os serviços AWS, exceto serviços gerenciados
+- [ ] Acesso completo apenas a serviços de segurança da AWS
+- [ ] Acesso de administrador ao AWS Identity and Access Management (IAM) e acesso limitado a todos os outros serviços
+
+**Explicação**: O usuário-raiz da AWS tem **acesso completo a todos os serviços e recursos da AWS**, permitindo-lhe realizar qualquer ação em todos os recursos, incluindo aqueles de gerenciamento de identidade e controle de acesso (IAM).
+
+---
+
+#### 3. Qual serviço de registro em log deve ser imediatamente ativado como uma prática recomendada ao criar uma conta da Amazon Web Services (AWS)?
+- [ ] Amazon CloudWatch
+- [ ] AWS Config
+- [ ] AWS Control Tower
+- [x] AWS CloudTrail
+
+**Explicação**: O **AWS CloudTrail** é um serviço de registro de logs que deve ser imediatamente ativado, pois ele rastreia todas as chamadas de API feitas na conta AWS. Isso é importante para monitorar a segurança e realizar auditorias.
+
+---
+
+#### 4. Qual destas é uma prática recomendada ao criar um usuário em uma conta da Amazon Web Services (AWS)?
+- [ ] Incluir números no nome de usuário.
+- [ ] Criar a senha com 10 caracteres de comprimento.
+- [x] Exigir a autenticação com multifator (MFA) para acesso.
+- [ ] Criar a senha igual ao nome de usuário inicialmente.
+
+**Explicação**: **Exigir autenticação com multifator (MFA)** para todos os usuários, incluindo o usuário-raiz, é uma das práticas recomendadas mais importantes para aumentar a segurança, já que adiciona uma camada extra de proteção além da senha.
+
+---
+
+#### 5. Qual é uma prática recomendada ao configurar a conta da Amazon Web Services que receberá os relatórios de cobrança?
+- [ ] Criar novos relatórios para cada usuário da AWS que precisar de acesso.
+- [x] Criar ou selecionar um bucket do Amazon Simple Storage Service (Amazon S3) e configurar os relatórios de uso e custo da AWS.
+- [ ] Editar uma política existente para adicionar novos relatórios à sua conta da AWS.
+- [ ] Dar credenciais de usuário-raiz à conta para todos os funcionários para que cada um crie seu próprio relatório.
+
+**Explicação**: A prática recomendada é **criar ou selecionar um bucket do Amazon S3** para armazenar os relatórios de uso e custo da AWS, centralizando o armazenamento de relatórios em um único local acessível de forma controlada, sem expor a conta de usuário-raiz a todos os funcionários.
+
+---

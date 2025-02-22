@@ -1,0 +1,47 @@
+##258-NF-KC - Sub-redes IPv4 
+
+### 1. Por que criar uma sub-rede? (Selecione DUAS.)
+
+- [x] Para dividir uma rede em sub-redes menores e mais eficientes
+- [ ] Para incluir endereços IP adicionais a uma sub-rede existente
+- [ ] Para alocar um endereço IP estático específico
+- [x] Para reduzir o tráfego de rede
+- [ ] Para reduzir o número de redes a gerenciar
+
+**Explicação:** Criar sub-redes ajuda a dividir uma rede em partes menores e mais gerenciáveis, o que pode melhorar a eficiência e reduzir o tráfego de rede, limitando o domínio de broadcast.
+
+### 2. Qual classe de endereço IP fornece a maior quantidade de hosts?
+
+- [ ] Classe C
+- [ ] Classe B
+- [ ] Classe D
+- [x] Classe A
+
+**Explicação:** A Classe A de endereços IP fornece o maior número de hosts, com um intervalo de endereços que permite até 16 milhões de hosts por rede.
+
+### 3. Qual notação de roteamento entre domínios sem classe (CIDR) define o menor intervalo de endereços IP, onde x representa um dígito?
+
+- [ ] xxx.xxxx.xxx.xxx/16
+- [ ] xxx.xxxx.xxx.xxx/24
+- [x] xxx.xxxx.xxx.xxx/31
+- [ ] xxx.xxxx.xxx.xxx/8
+
+**Explicação:** A notação CIDR /31 define o menor intervalo de endereços IP, permitindo apenas 2 endereços IP, que é o menor intervalo possível para uma sub-rede.
+
+### 4. Um administrador cria uma sub-rede com o intervalo de roteamento entre domínios sem classe (CIDR) de 10.0.0.0/24. Quantos endereços IP o administrador pode atribuir aos hosts nessa sub-rede?
+
+- [x] 256
+- [ ] 24
+- [ ] 512
+- [ ] 1.024
+
+**Explicação:** Uma sub-rede com a notação CIDR /24 fornece 256 endereços IP, dos quais 254 podem ser atribuídos a hosts (um endereço é reservado para o endereço de rede e outro para o endereço de broadcast).
+
+### 5. Qual afirmação descreve uma máscara de sub-rede?
+
+- [ ] É usada para tornar uma sub-rede privada.
+- [x] Define qual seção de um endereço IP identifica a rede e qual seção de um endereço IP identifica os hosts.
+- [ ] Esconde o endereço de transmissão em um intervalo de endereços IP.
+- [ ] Define os hosts em uma rede que têm um endereço IP estático.
+
+**Explicação:** Uma máscara de sub-rede é usada para definir qual parte de um endereço IP identifica a rede e qual parte identifica os hosts dentro dessa rede.
